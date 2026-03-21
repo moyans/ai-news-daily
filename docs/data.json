@@ -1,12 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-03-21T21:51:36.553841",
-    "total": 21,
-    "today": "2026-03-21"
+    "generated_at": "2026-03-22T07:07:07.138242",
+    "total": 37,
+    "today": "2026-03-22"
   },
   "categories": [
     "AI",
     "ai_app",
+    "open_source_project",
     "software_recommendation",
     "产品",
     "应用",
@@ -14,10 +15,283 @@
     "模型"
   ],
   "dates": [
+    "2026-03-22",
     "2026-03-21",
     "2026-03-20"
   ],
   "news": [
+    {
+      "id": 2,
+      "date": "2026-03-21",
+      "title": "AI Seedance 2.0 发布：好莱坞级视频质量震撼业界",
+      "summary": "AI 视频生成工具 Seedance 推出 2.0 版本，生成质量达到\"好莱坞百万美元级别\"，引发影视行业深度担忧。",
+      "category": "ai_app",
+      "tags": [
+        "AISeedance",
+        "AIVideo",
+        "HollywoodAI"
+      ],
+      "heat": 402197,
+      "source": "x",
+      "url": "https://x.com/dom_lucre/status/2035394437547692317",
+      "why": "短短两个月内质量再次飞跃，标志着 AI 已能独立完成专业级视频制作，可能彻底颠覆传统影视生产流程与成本结构。\n> **互动指标**: 👁️ 359037 | ❤️ 5974 | 🔁 537\n> **原文链接**: [跳转](https://x.com/dom_lucre/status/2035394437547692317) | **发布时间**: 2026-03-21T16:33:44Z",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-03-21",
+      "title": "中国开源 100% 本地 AI 员工：自带电脑全能工作",
+      "summary": "中国发布完全本地运行的开源 AI 员工，可独立完成研究、编码、建站、幻灯片、视频生成等全流程工作。",
+      "category": "open_source_project",
+      "tags": [
+        "OpenSourceAI",
+        "LocalAIAgent",
+        "ChinaAI"
+      ],
+      "heat": 189499,
+      "source": "x",
+      "url": "https://x.com/dr_cintas/status/2035387052460536293",
+      "why": "真正实现零云依赖、隐私安全且自带硬件的 AI 代理首次开源，将极大降低企业与个人部署门槛，推动全球 AI 普惠化。\n> **互动指标**: 👁️ 169599 | ❤️ 2488 | 🔁 345\n> **原文链接**: [跳转](https://x.com/dr_cintas/status/2035387052460536293) | **发布时间**: 2026-03-21T16:04:23Z",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-03-21",
+      "title": "本月 AI 模型大爆发：GPT-5.4、Mistral Small 4 等多款重磅发布",
+      "summary": "本月已密集推出 GPT-5.4 全系列、MiniMax M2.7、Mistral Small 4、NVIDIA Nemotron 3 Super、Qwen3.5 等前沿模型。",
+      "category": "software_recommendation",
+      "tags": [
+        "NewLLM",
+        "GPT5",
+        "AIModelRelease"
+      ],
+      "heat": 65202,
+      "source": "x",
+      "url": "https://x.com/RoundtableSpace/status/2035427471412134156",
+      "why": "一个月内多达十余款顶级模型集中落地，AI 迭代速度已进入\"每几天一次突破\"阶段，开发者与企业必须立即跟进才能保持竞争力。\n> **互动指标**: 👁️ 62957 | ❤️ 295 | 🔁 17\n> **原文链接**: [跳转](https://x.com/RoundtableSpace/status/2035427471412134156) | **发布时间**: 2026-03-21T18:45:00Z",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-03-21",
+      "title": "Anthropic 正式推出 Claude Architect 认证考试",
+      "summary": "Anthropic 发布 Claude Architect 认证，需一次性完成 60 道多选题，覆盖五大能力领域，目前仅限合作伙伴免费参与前 5000 名。",
+      "category": "software_recommendation",
+      "tags": [
+        "ClaudeCertification",
+        "Anthropic",
+        "AIArchitect"
+      ],
+      "heat": 55356,
+      "source": "x",
+      "url": "https://x.com/aastha_mhaske/status/2035377599770423583",
+      "why": "首个官方 Claude 生态专业认证路径正式上线，将快速培养一批掌握 MCP、Agent SDK 等前沿能力的行业专家。\n> **互动指标**: 👁️ 48071 | ❤️ 945 | 🔁 123\n> **原文链接**: [跳转](https://x.com/aastha_mhaske/status/2035377599770423583) | **发布时间**: 2026-03-21T15:26:49Z",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-03-21",
+      "title": "GitHub 开源 spec-kit：AI 自动生成规格+计划+代码",
+      "summary": "GitHub 推出开源 spec-kit 工具包，输入需求后 AI 自动输出完整规格、开发计划并直接生成代码，支持所有主流 AI 编码代理。",
+      "category": "open_source_project",
+      "tags": [
+        "GitHubSpecKit",
+        "AICoding",
+        "OpenSource"
+      ],
+      "heat": 54568,
+      "source": "x",
+      "url": "https://x.com/_vmlops/status/2035205552394182853",
+      "why": "彻底终结\"vibe coding\"混乱模式，让 AI 开发从随手写变为结构化工程化，大幅提升生产力与可维护性。\n> **互动指标**: 👁️ 49828 | ❤️ 612 | 🔁 71\n> **原文链接**: [跳转](https://x.com/_vmlops/status/2035205552394182853) | **发布时间**: 2026-03-21T04:03:10Z",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-03-21",
+      "title": "LiteParse：专为 AI 代理打造的开源文档解析器",
+      "summary": "开源文档解析器 LiteParse 支持 50+ 文件类型，秒级解析数百页内容，可直接集成 Claude Code、OpenClaw 等 AI 代理工具。",
+      "category": "open_source_project",
+      "tags": [
+        "LiteParse",
+        "DocumentAI",
+        "AIAgents"
+      ],
+      "heat": 54345,
+      "source": "x",
+      "url": "https://x.com/RoundtableSpace/status/2035223628141273401",
+      "why": "解决 AI 代理处理复杂文档的痛点，为多智能体系统和 RAG 应用提供工业级基础能力，极大加速实际落地。\n> **互动指标**: 👁️ 53700 | ❤️ 85 | 🔁 6\n> **原文链接**: [跳转](https://x.com/RoundtableSpace/status/2035223628141273401) | **发布时间**: 2026-03-21T05:15:00Z",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-03-22",
+      "title": "广告商称首批ChatGPT广告技术含量低，尚无效果数据: 大模型竞争继续向生态和落地延伸",
+      "summary": "OpenAI于2026年2月9日在美国开始针对免费版和Go版用户进行ChatGPT广告测试，但首批购买广告活动的广告商反映该过程技术含量较低，且尚未获得充分的广告效果数据反馈",
+      "category": "模型",
+      "tags": [
+        "OpenAI",
+        "大模型",
+        "训练"
+      ],
+      "heat": 319,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10056.html",
+      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10056.html) | **发布时间**: 2026-03-22 01:30",
+      "sources": 3
+    },
+    {
+      "id": 4,
+      "date": "2026-03-22",
+      "title": "ChatGPT将在未来几周向所有美国免费用户展示广告: 大模型竞争继续向生态和落地延伸",
+      "summary": "OpenAI宣布将在未来几周内向美国所有免费ChatGPT用户推出广告功能。此举旨在为公司创造新的收入来源",
+      "category": "模型",
+      "tags": [
+        "OpenAI",
+        "大模型",
+        "训练"
+      ],
+      "heat": 38,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10055.html",
+      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。\n>\n> **互动指标**: 来源数 0 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10055.html) | **发布时间**: 2026-03-22 00:30",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-03-21",
+      "title": "华为肖德刚：AI技术与存储密不可分，加速迈入双向赋能新阶段: AI 产品正努力改变默认入口",
+      "summary": "3月20日，华为中国合作伙伴大会2026期间举办的数据存储峰会上，华为数据存储产品线副总裁肖德刚指出AI技术与存储密不可分，宣布加速迈入'双向赋能'新阶段，即通过Storage for AI让存储成为AI应用的关键支柱",
+      "category": "产品",
+      "tags": [
+        "产品化",
+        "功能上线",
+        "用户入口"
+      ],
+      "heat": 337,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10051.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10051.html) | **发布时间**: 2026-03-21 20:41",
+      "sources": 3
+    },
+    {
+      "id": 6,
+      "date": "2026-03-21",
+      "title": "库克：AI是对人能力的放大而非取代，不要惧怕要拥抱AI: AI 正在更直接地改变消费和工作流程",
+      "summary": "苹果CEO蒂姆·库克近期在员工大会上表示，AI革命是继互联网、智能手机和云计算之后的重大技术变革，强调",
+      "category": "应用",
+      "tags": [
+        "应用落地",
+        "真实场景",
+        "商业化"
+      ],
+      "heat": 336,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10050.html",
+      "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10050.html) | **发布时间**: 2026-03-21 19:50",
+      "sources": 3
+    },
+    {
+      "id": 7,
+      "date": "2026-03-21",
+      "title": "AI心电图解读更准识别无ST段抬高型心肌梗死: AI 正在更直接地改变消费和工作流程",
+      "summary": "上海市第十人民医院心血管内科团队开发的AI系统通过分析标准12导联心电图，能高精度识别ST段抬高型心肌梗死患者的病变血管，在心电图波形识别的准确度、灵敏度和特异度方面均表现优异，超越了心内科医生和现有心电图算法的诊断水平",
+      "category": "应用",
+      "tags": [
+        "应用落地",
+        "真实场景",
+        "商业化"
+      ],
+      "heat": 235,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10047.html",
+      "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10047.html) | **发布时间**: 2026-03-21 17:20",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-03-21",
+      "title": "雷军官宣：XiaomiMiMo首周限免开放: AI 正从问答工具转向执行工具",
+      "summary": "小米于2026年3月19日发布三款自研大模型Xiaomi MiMo-V2系列，并宣布与OpenClaw、OpenCode、KiloCode、Blackbox及Cline五大Agent框架团队合作，为全球开发者提供首周限时免费接口支持",
+      "category": "智能体",
+      "tags": [
+        "大模型",
+        "任务执行",
+        "工作流"
+      ],
+      "heat": 434,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10044.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10044.html) | **发布时间**: 2026-03-21 15:20",
+      "sources": 4
+    },
+    {
+      "id": 9,
+      "date": "2026-03-21",
+      "title": "国家级电力人工智能中试基地迎首批企业，华为、中兴、百度等入驻: AI 产品正努力改变默认入口",
+      "summary": "国家级电力人工智能中试基地宣布正式启动，华为、中兴、百度等科技企业成为首批入驻单位，标志着我国在电力系统智能化和人工智能深度融合领域的重要进展",
+      "category": "产品",
+      "tags": [
+        "产品化",
+        "功能上线",
+        "用户入口"
+      ],
+      "heat": 33,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10043.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 0 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10043.html) | **发布时间**: 2026-03-21 15:20",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-03-21",
+      "title": "微软将减少Windows 11中不必要的Copilot集成，并改善更新控制: AI 正从问答工具转向执行工具",
+      "summary": "据3月16-17日报道，微软在遭到用户强烈抵制后，正式调整Windows 11的AI战略，大幅减少Copilot的强制整合",
+      "category": "智能体",
+      "tags": [
+        "Copilot",
+        "微软",
+        "任务执行"
+      ],
+      "heat": 332,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10038.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10038.html) | **发布时间**: 2026-03-21 03:40",
+      "sources": 3
+    },
+    {
+      "id": 11,
+      "date": "2026-03-20",
+      "title": "谷歌试验用AI生成标题替换搜索结果新闻标题，继Google Discover后再推新功能: AI 产品正努力改变默认入口",
+      "summary": "谷歌正在进行小规模实验，用AI生成的标题替换搜索结果中的新闻标题，这是该公司AI搜索战略的延续",
+      "category": "产品",
+      "tags": [
+        "谷歌",
+        "产品化",
+        "功能上线"
+      ],
+      "heat": 131,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10035.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10035.html) | **发布时间**: 2026-03-20 23:50",
+      "sources": 1
+    },
+    {
+      "id": 12,
+      "date": "2026-03-20",
+      "title": "京东云披露“龙虾天团”：基于JoyAI大模型驱动: AI 正从问答工具转向执行工具",
+      "summary": "北京时间3月20日下午，京东云联合JoyAI在北京双井店举办「养龙虾送龙虾，免费安装OpenClaw」活动，首次集结发布「龙虾天团」，全面展示基于JoyAI大模型驱动的AI智能体技术体系",
+      "category": "智能体",
+      "tags": [
+        "智能体",
+        "大模型",
+        "任务执行"
+      ],
+      "heat": 130,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10033.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10033.html) | **发布时间**: 2026-03-20 23:00",
+      "sources": 1
+    },
     {
       "id": 2,
       "date": "2026-03-21",
