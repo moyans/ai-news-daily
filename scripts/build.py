@@ -35,8 +35,9 @@ def parse_news_block(block: str, rank: int, source: str, date: str) -> dict | No
         category_match = re.search(r'\*\*分类\*\*:\s*#(\S+)', block)
         category = category_match.group(1) if category_match else "未知"
         
-        heat_match = re.search(r'\*\*热度分\*\*:\s*(\d+)', block)
-        heat = int(heat_match.group(1)) if heat_match else 0
+        heat_match = re.search(r'\*\*热度分\*\*:\s*([\d,]+)', block)
+        heat_str = heat_match.group(1).replace(',', '') if heat_match else '0'
+        heat = int(heat_str)
         
         summary_match = re.search(r'\*\*一句话总结\*\*:\s*(.+?)(?:\n|$)', block)
         summary = summary_match.group(1).strip() if summary_match else ""
@@ -79,7 +80,7 @@ def parse_news_block(block: str, rank: int, source: str, date: str) -> dict | No
 def scan_data_dir(data_dir: Path) -> list[dict]:
     all_news = []
     
-    for md_file in sorted(data_dir.glob("*/*/content.md"), reverse=True):
+    for md_file in sorted(data_dir.glob("*/*/*.md"), reverse=True):
         parts = md_file.relative_to(data_dir).parts
         date = parts[0]
         source = parts[1]
