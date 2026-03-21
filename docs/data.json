@@ -1,19 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-03-21T16:17:01.521263",
-    "total": 20,
+    "generated_at": "2026-03-21T21:35:47.326503",
+    "total": 11,
     "today": "2026-03-21"
   },
   "categories": [
-    "ai_app",
-    "open_source_project",
-    "software_recommendation",
+    "AI",
     "产品",
+    "应用",
     "智能体",
-    "机器人",
-    "模型",
-    "芯片",
-    "融资"
+    "模型"
   ],
   "dates": [
     "2026-03-21",
@@ -21,187 +17,75 @@
   ],
   "news": [
     {
-      "id": 3,
-      "date": "2026-03-20",
-      "title": "Cursor 推出 Composer 2，Kimi k2.5 模型驱动达 Opus 级性能",
-      "summary": "Cursor AI 编码平台发布 Composer 2 新功能，由 Moonshot Kimi-k2.5 模型提供底层支持，通过商业托管与 RL 优化实现顶级代码生成能力。",
-      "category": "ai_app",
+      "id": 2,
+      "date": "2026-03-21",
+      "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput",
+      "summary": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national sec",
+      "category": "AI",
       "tags": [
-        "Cursor",
-        "Composer2",
-        "KimiK2.5",
-        "AIcoding",
-        "AgentWorkflow"
+        "Anthropic",
+        "Pentagon",
+        "national security"
       ],
-      "heat": 1632046,
-      "source": "x",
-      "url": "https://x.com/Kimi_Moonshot/status/2035074972943831491",
-      "why": "这是开源模型生态商业落地的标杆案例，Cursor 结合预训练 + 高算力 RL 训练，让 Kimi-k2.5 超越传统闭源模型在实际编码任务的表现，直接加速开发者从 prompt 到生产级代码的闭环效率，对整个 AI 编程工具链产生颠覆性影响。",
+      "heat": 0,
+      "source": "techcrunch-ai",
+      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "why": "随着 AI 技术渗透关键领域，监管与国家安全议题日益突出。New court filing reveals Pentagon told A 折射出政府与 AI 公司间的博弈，值得持续关注后续判例与政策走向。",
       "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-03-21",
+      "title": "华为肖德刚：AI技术与存储密不可分，加速迈入双向赋能新阶段: AI 产品正努力改变默认入口",
+      "summary": "3月20日，华为中国合作伙伴大会2026期间举办的数据存储峰会上，华为数据存储产品线副总裁肖德刚指出AI技术与存储密不可分，宣布加速迈入'双向赋能'新阶段，即通过Storage for AI让存储成为AI应用的关键支柱",
+      "category": "产品",
+      "tags": [
+        "产品化",
+        "功能上线",
+        "用户入口"
+      ],
+      "heat": 319,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10051.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10051.html) | **发布时间**: 2026-03-21 20:41",
+      "sources": 3
     },
     {
       "id": 4,
-      "date": "2026-03-20",
-      "title": "Grok 深度分析欧盟法规，建议删除 89% 现行法律",
-      "summary": "Grok AI 一次性扫描全部欧盟法规后，提出删除 89% 冗余条款的激进建议，展现了大模型在海量政策文本中的分析与决策能力。",
-      "category": "ai_app",
+      "date": "2026-03-21",
+      "title": "库克：AI是对人能力的放大而非取代，不要惧怕要拥抱AI: AI 正在更直接地改变消费和工作流程",
+      "summary": "苹果CEO蒂姆·库克近期在员工大会上表示，AI革命是继互联网、智能手机和云计算之后的重大技术变革，强调",
+      "category": "应用",
       "tags": [
-        "Grok",
-        "EUlaw",
-        "AIAnalysis",
-        "PolicyAI"
+        "应用落地",
+        "真实场景",
+        "商业化"
       ],
-      "heat": 316606,
-      "source": "x",
-      "url": "https://x.com/Cointelegraph/status/2034963418373923156",
-      "why": "技术上证明 Grok 在超长上下文 + 复杂推理任务上的领先，产品层面为法律、科技监管行业提供可立即落地的 Agent 用例，未来类似工具将重塑政策制定与合规流程。",
-      "sources": 1
+      "heat": 318,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10050.html",
+      "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10050.html) | **发布时间**: 2026-03-21 19:50",
+      "sources": 3
     },
     {
       "id": 5,
-      "date": "2026-03-20",
-      "title": "本周 GitHub 最爆 AI Agent 项目：agency-agents 等星标暴增 2 万+",
-      "summary": "本周 GitHub 增长最快的开源项目被 AI Agent 框架包揽，agency-agents、superpowers、MiroFish 等项目单周新增数万星标，形成完整 Agent 工具链。",
-      "category": "open_source_project",
+      "date": "2026-03-21",
+      "title": "AI心电图解读更准识别无ST段抬高型心肌梗死: AI 正在更直接地改变消费和工作流程",
+      "summary": "上海市第十人民医院心血管内科团队开发的AI系统通过分析标准12导联心电图，能高精度识别ST段抬高型心肌梗死患者的病变血管，在心电图波形识别的准确度、灵敏度和特异度方面均表现优异，超越了心内科医生和现有心电图算法的诊断水平",
+      "category": "应用",
       "tags": [
-        "GitHub",
-        "AIAgents",
-        "OpenSource",
-        "Superpowers"
+        "应用落地",
+        "真实场景",
+        "商业化"
       ],
-      "heat": 143217,
-      "source": "x",
-      "url": "https://x.com/sharbel/status/2034968576696688689",
-      "why": "Agentic AI 已成为开源新战场，这些 plug-and-play 框架让普通开发者 5 分钟内搭建多 Agent 系统，直接降低从原型到生产的门槛，预示 2026 年 Agent 应用将像 2023 年的 LLM 一样爆发。",
+      "heat": 237,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10047.html",
+      "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10047.html) | **发布时间**: 2026-03-21 17:20",
       "sources": 1
     },
     {
       "id": 6,
-      "date": "2026-03-20",
-      "title": "Anthropic 即将推出 Claude Cowork Projects 功能",
-      "summary": "Anthropic 计划为 Claude Cowork 添加 Projects 模式，支持本地文件夹绑定与项目专属定时任务，让 AI 真正成为持久化工作助手。",
-      "category": "ai_app",
-      "tags": [
-        "Claude",
-        "Cowork",
-        "Projects",
-        "AgenticAI"
-      ],
-      "heat": 124447,
-      "source": "x",
-      "url": "https://x.com/testingcatalog/status/2034947032327073981",
-      "why": "这将把 Claude 从单次对话工具升级为长期 Agent 工作流平台，结合本地文件夹与调度能力，极大提升企业级生产力场景的落地性。",
-      "sources": 1
-    },
-    {
-      "id": 7,
-      "date": "2026-03-20",
-      "title": "Microsoft 开源任意文件转 Markdown 工具，60 秒搞定 LLM 输入",
-      "summary": "Microsoft 发布开源工具，支持 10+ 文件格式一键转为干净 Markdown，内置 MCP 服务可直接对接 Claude Desktop。",
-      "category": "open_source_project",
-      "tags": [
-        "Microsoft",
-        "MarkdownConverter",
-        "OpenSource",
-        "LLMInput"
-      ],
-      "heat": 79102,
-      "source": "x",
-      "url": "https://x.com/simplifyinAI/status/2034943810955018352",
-      "why": "解决了 RAG 与多模态 Agent 最痛的文档预处理问题，Docker/Python/CLI 三种方式部署，极大降低非结构化数据接入大模型的门槛。",
-      "sources": 1
-    },
-    {
-      "id": 8,
-      "date": "2026-03-20",
-      "title": "Gemini CLI v0.34.0 发布：启动更快 + 技能调用优化",
-      "summary": "Gemini CLI 新版本大幅缩短启动时间，支持 /skill-name 快速调用技能，并实现子目录 GEMINI.md 即时加载。",
-      "category": "open_source_project",
-      "tags": [
-        "GeminiCLI",
-        "OpenSource",
-        "TerminalAI",
-        "AgentCLI"
-      ],
-      "heat": 58940,
-      "source": "x",
-      "url": "https://x.com/geminicli/status/2035037896751665568",
-      "why": "终端原生 Agent 工具持续迭代，技能系统与文件加载优化让开发者在命令行直接构建复杂工作流，填补桌面 Agent 生态空白。",
-      "sources": 1
-    },
-    {
-      "id": 9,
-      "date": "2026-03-20",
-      "title": "Elon Musk 宣布 X 下周推送重大 AI 算法更新并开源",
-      "summary": "Elon Musk 透露 X 将在下周上线重磅 AI 算法升级，并将完整代码开源给社区。",
-      "category": "open_source_project",
-      "tags": [
-        "XAI",
-        "Grok",
-        "OpenSource",
-        "AlgorithmUpdate"
-      ],
-      "heat": 43458,
-      "source": "x",
-      "url": "https://x.com/Cointelegraph/status/2034902997906411958",
-      "why": "X 作为全球最大实时数据源，其推荐算法开源将直接推动 Grok 与社区 Agent 的训练数据质量飞跃，加速整个社交 + AI 融合生态。",
-      "sources": 1
-    },
-    {
-      "id": 10,
-      "date": "2026-03-20",
-      "title": "e2b-dev/awesome-ai-agents 列表已达 25.8k 星标持续更新",
-      "summary": "收录开源与商用自主 AI Agent 的精选列表已积累 25.8k 星标，成为开发者追踪 Agent 前沿的实时地图。",
-      "category": "open_source_project",
-      "tags": [
-        "AwesomeAIAgents",
-        "OpenSource",
-        "AgentList"
-      ],
-      "heat": 34696,
-      "source": "x",
-      "url": "https://x.com/_vmlops/status/2034894366402388074",
-      "why": "Agent 领域迭代极快，此列表覆盖编码、研究、个人助手全场景，帮助开发者快速定位最成熟工具，避免重复造轮子。",
-      "sources": 1
-    },
-    {
-      "id": 11,
-      "date": "2026-03-20",
-      "title": "黄仁勋：工程师年薪 50 万却用不完 25 万 token，我会极度恐慌",
-      "summary": "NVIDIA CEO 黄仁勋分享个人实践：AI Agent 已成日常工具，7 个专用 Agent 分工协作，人类仅负责定义问题。",
-      "category": "software_recommendation",
-      "tags": [
-        "NVIDIA",
-        "AIAgents",
-        "HuangRenxun",
-        "Productivity"
-      ],
-      "heat": 55297,
-      "source": "x",
-      "url": "https://x.com/FuSheng_0306/status/2034911052857844066",
-      "why": "揭示 AI 从辅助到替代的真实拐点，token 使用量 1000 倍增长与 OpenClaw 等 Agent 框架结合，将彻底改变软件工程师工作模式。",
-      "sources": 1
-    },
-    {
-      "id": 12,
-      "date": "2026-03-21",
-      "title": "Android Studio 进入 Agentic 时代：一句话生成完整 App",
-      "summary": "Android Studio 新 AI Agent 可直接根据自然语言提示生成、迭代并构建完整移动应用。",
-      "category": "ai_app",
-      "tags": [
-        "AndroidStudio",
-        "AgenticAI",
-        "Google",
-        "MobileDev"
-      ],
-      "heat": 5233,
-      "source": "x",
-      "url": "https://x.com/AndroidDev/status/2035151907006595127",
-      "why": "移动端开发首次实现端到端 Agent 驱动，极大降低原生 App 构建门槛，对独立开发者与小团队生产力提升显著。",
-      "sources": 1
-    },
-    {
-      "id": 3,
       "date": "2026-03-21",
       "title": "雷军官宣：XiaomiMiMo首周限免开放: AI 正从问答工具转向执行工具",
       "summary": "小米于2026年3月19日发布三款自研大模型Xiaomi MiMo-V2系列，并宣布与OpenClaw、OpenCode、KiloCode、Blackbox及Cline五大Agent框架团队合作，为全球开发者提供首周限时免费接口支持",
@@ -211,14 +95,14 @@
         "任务执行",
         "工作流"
       ],
-      "heat": 419,
+      "heat": 436,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10044.html",
-      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10044.html) | **发布时间**: 2026-03-21 15:20",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10044.html) | **发布时间**: 2026-03-21 15:20",
       "sources": 4
     },
     {
-      "id": 4,
+      "id": 7,
       "date": "2026-03-21",
       "title": "国家级电力人工智能中试基地迎首批企业，华为、中兴、百度等入驻: AI 产品正努力改变默认入口",
       "summary": "国家级电力人工智能中试基地宣布正式启动，华为、中兴、百度等科技企业成为首批入驻单位，标志着我国在电力系统智能化和人工智能深度融合领域的重要进展",
@@ -228,14 +112,14 @@
         "功能上线",
         "用户入口"
       ],
-      "heat": 18,
+      "heat": 35,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10043.html",
-      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 0 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10043.html) | **发布时间**: 2026-03-21 15:20",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 0 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10043.html) | **发布时间**: 2026-03-21 15:20",
       "sources": 1
     },
     {
-      "id": 5,
+      "id": 8,
       "date": "2026-03-21",
       "title": "微软将减少Windows 11中不必要的Copilot集成，并改善更新控制: AI 正从问答工具转向执行工具",
       "summary": "据3月16-17日报道，微软在遭到用户强烈抵制后，正式调整Windows 11的AI战略，大幅减少Copilot的强制整合",
@@ -245,31 +129,31 @@
         "微软",
         "任务执行"
       ],
-      "heat": 317,
+      "heat": 334,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10038.html",
-      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10038.html) | **发布时间**: 2026-03-21 03:40",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10038.html) | **发布时间**: 2026-03-21 03:40",
       "sources": 3
     },
     {
-      "id": 6,
+      "id": 9,
       "date": "2026-03-20",
       "title": "谷歌试验用AI生成标题替换搜索结果新闻标题，继Google Discover后再推新功能: AI 产品正努力改变默认入口",
       "summary": "谷歌正在进行小规模实验，用AI生成的标题替换搜索结果中的新闻标题，这是该公司AI搜索战略的延续",
       "category": "产品",
       "tags": [
         "谷歌",
-        "搜索",
-        "产品化"
+        "产品化",
+        "功能上线"
       ],
-      "heat": 136,
+      "heat": 133,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10035.html",
       "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10035.html) | **发布时间**: 2026-03-20 23:50",
       "sources": 1
     },
     {
-      "id": 7,
+      "id": 10,
       "date": "2026-03-20",
       "title": "京东云披露“龙虾天团”：基于JoyAI大模型驱动: AI 正从问答工具转向执行工具",
       "summary": "北京时间3月20日下午，京东云联合JoyAI在北京双井店举办「养龙虾送龙虾，免费安装OpenClaw」活动，首次集结发布「龙虾天团」，全面展示基于JoyAI大模型驱动的AI智能体技术体系",
@@ -279,31 +163,31 @@
         "大模型",
         "任务执行"
       ],
-      "heat": 115,
+      "heat": 132,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10033.html",
-      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。\n>\n> **互动指标**: 来源数 1 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10033.html) | **发布时间**: 2026-03-20 23:00",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10033.html) | **发布时间**: 2026-03-20 23:00",
       "sources": 1
     },
     {
-      "id": 8,
+      "id": 11,
       "date": "2026-03-20",
       "title": "XAI派工程师前往客户现场，以从OpenAI手中抢夺业务: 大模型竞争继续向生态和落地延伸",
       "summary": "根据搜索结果，虽然未发现关于xAI派工程师前往客户现场抢夺业务的具体报道，但搜索结果显示xAI正通过SpaceX支持、地理位置扩张和AI能力提升等多种方式，积极应对与OpenAI等头部AI企业的竞争",
       "category": "模型",
       "tags": [
         "OpenAI",
-        "搜索",
-        "大模型"
+        "大模型",
+        "训练"
       ],
-      "heat": 514,
+      "heat": 531,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10031.html",
-      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 5 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 5 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10031.html) | **发布时间**: 2026-03-20 21:50",
+      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 5 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 5 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10031.html) | **发布时间**: 2026-03-20 21:50",
       "sources": 5
     },
     {
-      "id": 9,
+      "id": 12,
       "date": "2026-03-20",
       "title": "腾讯AI Lab撤销，部分人员并入混元: 大模型竞争继续向生态和落地延伸",
       "summary": "腾讯TEG技术工程事业群组织架构发生调整，企业级AI实验室AI Lab被撤销，原部分人员并入混元大模型团队",
@@ -313,62 +197,11 @@
         "大模型",
         "训练"
       ],
-      "heat": 433,
+      "heat": 430,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10024.html",
       "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10024.html) | **发布时间**: 2026-03-20 20:30",
       "sources": 4
-    },
-    {
-      "id": 10,
-      "date": "2026-03-20",
-      "title": "埃雅仁迪尔实验室获7.87亿融资，扩大AI生物制品开发: 资本正在重新定价 AI 赛道",
-      "summary": "AI驱动的生物技术公司埃雅仁迪尔实验室(Earendil Labs)宣布完成7.87亿美元融资，投资方包括Dimension Capital、DST Global、Sanofi等全球领先机构，融资将用于扩大AI驱动的研发平台",
-      "category": "融资",
-      "tags": [
-        "融资",
-        "估值",
-        "并购"
-      ],
-      "heat": 112,
-      "source": "huxiu",
-      "url": "https://www.huxiu.com/ainews/10023.html",
-      "why": "融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 1 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10023.html) | **发布时间**: 2026-03-20 20:00",
-      "sources": 1
-    },
-    {
-      "id": 11,
-      "date": "2026-03-20",
-      "title": "西门子投资1.65亿美元扩大美国人工智能基础设施制造规模: 算力和芯片供给仍是行业上限",
-      "summary": "西门子投资1.65亿美元在美国南北卡州扩建人工智能基础设施制造设施，计划新增350个工作岗位，以满足数据中心和人工智能工厂客户对低压和中压产品的激增需求",
-      "category": "芯片",
-      "tags": [
-        "算力",
-        "供应链",
-        "芯片"
-      ],
-      "heat": 511,
-      "source": "huxiu",
-      "url": "https://www.huxiu.com/ainews/10018.html",
-      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。 这条消息来自 5 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 5 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10018.html) | **发布时间**: 2026-03-20 18:40",
-      "sources": 5
-    },
-    {
-      "id": 12,
-      "date": "2026-03-20",
-      "title": "拟融资42.02亿元！宇树科技科创板IPO申请获受理: 具身智能正在加速进入真实场景",
-      "summary": "上海证券交易所已受理宇树科技股份有限公司科创板IPO申请，公司拟融资42.02亿元",
-      "category": "机器人",
-      "tags": [
-        "机器人",
-        "融资",
-        "具身智能"
-      ],
-      "heat": 330,
-      "source": "huxiu",
-      "url": "https://www.huxiu.com/ainews/10017.html",
-      "why": "具身智能最难的是从 Demo 走向稳定量产和真实场景，这类消息通常代表落地进展。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10017.html) | **发布时间**: 2026-03-20 18:32",
-      "sources": 3
     }
   ]
 }

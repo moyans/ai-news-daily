@@ -2,25 +2,75 @@
   "date": "2026-03-21",
   "news": [
     {
-      "id": 12,
+      "id": 2,
       "date": "2026-03-21",
-      "title": "Android Studio 进入 Agentic 时代：一句话生成完整 App",
-      "summary": "Android Studio 新 AI Agent 可直接根据自然语言提示生成、迭代并构建完整移动应用。",
-      "category": "ai_app",
+      "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput",
+      "summary": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national sec",
+      "category": "AI",
       "tags": [
-        "AndroidStudio",
-        "AgenticAI",
-        "Google",
-        "MobileDev"
+        "Anthropic",
+        "Pentagon",
+        "national security"
       ],
-      "heat": 5233,
-      "source": "x",
-      "url": "https://x.com/AndroidDev/status/2035151907006595127",
-      "why": "移动端开发首次实现端到端 Agent 驱动，极大降低原生 App 构建门槛，对独立开发者与小团队生产力提升显著。",
+      "heat": 0,
+      "source": "techcrunch-ai",
+      "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "why": "随着 AI 技术渗透关键领域，监管与国家安全议题日益突出。New court filing reveals Pentagon told A 折射出政府与 AI 公司间的博弈，值得持续关注后续判例与政策走向。",
       "sources": 1
     },
     {
       "id": 3,
+      "date": "2026-03-21",
+      "title": "华为肖德刚：AI技术与存储密不可分，加速迈入双向赋能新阶段: AI 产品正努力改变默认入口",
+      "summary": "3月20日，华为中国合作伙伴大会2026期间举办的数据存储峰会上，华为数据存储产品线副总裁肖德刚指出AI技术与存储密不可分，宣布加速迈入'双向赋能'新阶段，即通过Storage for AI让存储成为AI应用的关键支柱",
+      "category": "产品",
+      "tags": [
+        "产品化",
+        "功能上线",
+        "用户入口"
+      ],
+      "heat": 319,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10051.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10051.html) | **发布时间**: 2026-03-21 20:41",
+      "sources": 3
+    },
+    {
+      "id": 4,
+      "date": "2026-03-21",
+      "title": "库克：AI是对人能力的放大而非取代，不要惧怕要拥抱AI: AI 正在更直接地改变消费和工作流程",
+      "summary": "苹果CEO蒂姆·库克近期在员工大会上表示，AI革命是继互联网、智能手机和云计算之后的重大技术变革，强调",
+      "category": "应用",
+      "tags": [
+        "应用落地",
+        "真实场景",
+        "商业化"
+      ],
+      "heat": 318,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10050.html",
+      "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10050.html) | **发布时间**: 2026-03-21 19:50",
+      "sources": 3
+    },
+    {
+      "id": 5,
+      "date": "2026-03-21",
+      "title": "AI心电图解读更准识别无ST段抬高型心肌梗死: AI 正在更直接地改变消费和工作流程",
+      "summary": "上海市第十人民医院心血管内科团队开发的AI系统通过分析标准12导联心电图，能高精度识别ST段抬高型心肌梗死患者的病变血管，在心电图波形识别的准确度、灵敏度和特异度方面均表现优异，超越了心内科医生和现有心电图算法的诊断水平",
+      "category": "应用",
+      "tags": [
+        "应用落地",
+        "真实场景",
+        "商业化"
+      ],
+      "heat": 237,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10047.html",
+      "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10047.html) | **发布时间**: 2026-03-21 17:20",
+      "sources": 1
+    },
+    {
+      "id": 6,
       "date": "2026-03-21",
       "title": "雷军官宣：XiaomiMiMo首周限免开放: AI 正从问答工具转向执行工具",
       "summary": "小米于2026年3月19日发布三款自研大模型Xiaomi MiMo-V2系列，并宣布与OpenClaw、OpenCode、KiloCode、Blackbox及Cline五大Agent框架团队合作，为全球开发者提供首周限时免费接口支持",
@@ -30,14 +80,14 @@
         "任务执行",
         "工作流"
       ],
-      "heat": 419,
+      "heat": 436,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10044.html",
-      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10044.html) | **发布时间**: 2026-03-21 15:20",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10044.html) | **发布时间**: 2026-03-21 15:20",
       "sources": 4
     },
     {
-      "id": 4,
+      "id": 7,
       "date": "2026-03-21",
       "title": "国家级电力人工智能中试基地迎首批企业，华为、中兴、百度等入驻: AI 产品正努力改变默认入口",
       "summary": "国家级电力人工智能中试基地宣布正式启动，华为、中兴、百度等科技企业成为首批入驻单位，标志着我国在电力系统智能化和人工智能深度融合领域的重要进展",
@@ -47,14 +97,14 @@
         "功能上线",
         "用户入口"
       ],
-      "heat": 18,
+      "heat": 35,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10043.html",
-      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 0 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10043.html) | **发布时间**: 2026-03-21 15:20",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 0 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10043.html) | **发布时间**: 2026-03-21 15:20",
       "sources": 1
     },
     {
-      "id": 5,
+      "id": 8,
       "date": "2026-03-21",
       "title": "微软将减少Windows 11中不必要的Copilot集成，并改善更新控制: AI 正从问答工具转向执行工具",
       "summary": "据3月16-17日报道，微软在遭到用户强烈抵制后，正式调整Windows 11的AI战略，大幅减少Copilot的强制整合",
@@ -64,10 +114,10 @@
         "微软",
         "任务执行"
       ],
-      "heat": 317,
+      "heat": 334,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10038.html",
-      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10038.html) | **发布时间**: 2026-03-21 03:40",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10038.html) | **发布时间**: 2026-03-21 03:40",
       "sources": 3
     }
   ]
