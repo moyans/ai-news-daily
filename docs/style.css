@@ -205,6 +205,12 @@ main {
     font-weight: 500;
 }
 
+.archive-hint {
+    font-size: 11px;
+    color: #999;
+    margin-top: 8px;
+}
+
 .no-results {
     text-align: center;
     padding: 40px 20px;

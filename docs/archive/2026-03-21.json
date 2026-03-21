@@ -1,0 +1,74 @@
+{
+  "date": "2026-03-21",
+  "news": [
+    {
+      "id": 12,
+      "date": "2026-03-21",
+      "title": "Android Studio 进入 Agentic 时代：一句话生成完整 App",
+      "summary": "Android Studio 新 AI Agent 可直接根据自然语言提示生成、迭代并构建完整移动应用。",
+      "category": "ai_app",
+      "tags": [
+        "AndroidStudio",
+        "AgenticAI",
+        "Google",
+        "MobileDev"
+      ],
+      "heat": 5233,
+      "source": "x",
+      "url": "https://x.com/AndroidDev/status/2035151907006595127",
+      "why": "移动端开发首次实现端到端 Agent 驱动，极大降低原生 App 构建门槛，对独立开发者与小团队生产力提升显著。",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-03-21",
+      "title": "雷军官宣：XiaomiMiMo首周限免开放: AI 正从问答工具转向执行工具",
+      "summary": "小米于2026年3月19日发布三款自研大模型Xiaomi MiMo-V2系列，并宣布与OpenClaw、OpenCode、KiloCode、Blackbox及Cline五大Agent框架团队合作，为全球开发者提供首周限时免费接口支持",
+      "category": "智能体",
+      "tags": [
+        "大模型",
+        "任务执行",
+        "工作流"
+      ],
+      "heat": 419,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10044.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10044.html) | **发布时间**: 2026-03-21 15:20",
+      "sources": 4
+    },
+    {
+      "id": 4,
+      "date": "2026-03-21",
+      "title": "国家级电力人工智能中试基地迎首批企业，华为、中兴、百度等入驻: AI 产品正努力改变默认入口",
+      "summary": "国家级电力人工智能中试基地宣布正式启动，华为、中兴、百度等科技企业成为首批入驻单位，标志着我国在电力系统智能化和人工智能深度融合领域的重要进展",
+      "category": "产品",
+      "tags": [
+        "产品化",
+        "功能上线",
+        "用户入口"
+      ],
+      "heat": 18,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10043.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 0 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10043.html) | **发布时间**: 2026-03-21 15:20",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-03-21",
+      "title": "微软将减少Windows 11中不必要的Copilot集成，并改善更新控制: AI 正从问答工具转向执行工具",
+      "summary": "据3月16-17日报道，微软在遭到用户强烈抵制后，正式调整Windows 11的AI战略，大幅减少Copilot的强制整合",
+      "category": "智能体",
+      "tags": [
+        "Copilot",
+        "微软",
+        "任务执行"
+      ],
+      "heat": 317,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10038.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10038.html) | **发布时间**: 2026-03-21 03:40",
+      "sources": 3
+    }
+  ]
+}

@@ -115,13 +115,35 @@ def build(data_dir: Path, output_dir: Path):
     categories = get_categories(news_list)
     dates = get_dates(news_list)
     
+    today = datetime.now().strftime("%Y-%m-%d")
+    
+    news_by_date = {}
+    for news in news_list:
+        date = news["date"]
+        if date not in news_by_date:
+            news_by_date[date] = []
+        news_by_date[date].append(news)
+    
+    archive_dir = output_dir / "archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+    
+    for date, news in news_by_date.items():
+        archive_file = archive_dir / f"{date}.json"
+        archive_data = {
+            "date": date,
+            "news": news
+        }
+        archive_file.write_text(json.dumps(archive_data, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"归档: {archive_file} ({len(news)} 条)")
+    
     output = {
         "meta": {
             "generated_at": datetime.now().isoformat(),
-            "total": len(news_list)
+            "total": len(news_list),
+            "today": today
         },
         "categories": categories,
-        "dates": dates,
+        "dates": sorted(news_by_date.keys(), reverse=True),
         "news": news_list
     }
     

@@ -2,18 +2,21 @@ let allNews = [];
 let categories = [];
 let dates = [];
 let currentCategory = 'all';
-let currentMonth = null;
+let currentDate = null;
 let searchQuery = '';
 
-async function loadData() {
+async function loadData(dateFile = null) {
     try {
-        const response = await fetch('data.json');
+        const url = dateFile ? `archive/${dateFile}.json` : 'data.json';
+        const response = await fetch(url);
         const data = await response.json();
-        allNews = data.news;
-        categories = data.categories;
-        dates = data.dates;
-        renderCategories();
-        renderArchive();
+        allNews = dateFile ? data.news : data.news;
+        if (!dateFile) {
+            categories = data.categories;
+            dates = data.dates;
+            renderCategories();
+            renderArchive();
+        }
         renderNews();
     } catch (error) {
         console.error('加载数据失败:', error);
@@ -39,24 +42,24 @@ function renderArchive() {
     const container = document.getElementById('archive-list');
     container.innerHTML = '';
     
-    dates.forEach(month => {
+    dates.forEach(date => {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.href = '#';
-        a.textContent = formatMonth(month);
-        a.dataset.month = month;
+        a.textContent = formatDate(date);
+        a.dataset.date = date;
         a.addEventListener('click', (e) => {
             e.preventDefault();
-            filterByMonth(month);
+            loadArchive(date);
         });
         li.appendChild(a);
         container.appendChild(li);
     });
 }
 
-function formatMonth(month) {
-    const [year, mm] = month.split('-');
-    return `${year}年${mm}月`;
+function formatDate(date) {
+    const [year, month, day] = date.split('-');
+    return `${month}/${day}`;
 }
 
 function filterByCategory(category) {
@@ -67,12 +70,17 @@ function filterByCategory(category) {
     renderNews();
 }
 
-function filterByMonth(month) {
-    currentMonth = currentMonth === month ? null : month;
+function loadArchive(date) {
+    currentDate = currentDate === date ? null : date;
     document.querySelectorAll('#archive-list a').forEach(a => {
-        a.classList.toggle('active', a.dataset.month === currentMonth);
+        a.classList.toggle('active', a.dataset.date === currentDate);
     });
-    renderNews();
+    
+    if (currentDate) {
+        loadData(currentDate);
+    } else {
+        loadData();
+    }
 }
 
 function filterByTag(tag) {
@@ -89,10 +97,6 @@ function renderNews() {
     
     if (currentCategory !== 'all') {
         filtered = filtered.filter(n => n.category === currentCategory);
-    }
-    
-    if (currentMonth) {
-        filtered = filtered.filter(n => n.date.startsWith(currentMonth));
     }
     
     if (searchQuery) {
@@ -114,7 +118,7 @@ function renderNews() {
             <div class="news-meta">
                 <span class="news-date">${news.date}</span>
                 <span class="news-category">${news.category}</span>
-                <span class="news-heat">热度 ${news.heat}</span>
+                <span class="news-heat">热度 ${news.heat.toLocaleString()}</span>
             </div>
             <h2 class="news-title">
                 <a href="${news.url}" target="_blank" rel="noopener">${escapeHtml(news.title)}</a>
