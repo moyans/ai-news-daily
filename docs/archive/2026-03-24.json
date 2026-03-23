@@ -1,0 +1,113 @@
+{
+  "date": "2026-03-24",
+  "news": [
+    {
+      "id": 2,
+      "date": "2026-03-24",
+      "title": "Agentic AI and Autonomous Tools",
+      "summary": "Anthropic 发布 Claude Remote Worker，可自主打开应用、浏览网页、编辑表格并处理桌面任务。",
+      "category": "ai_app",
+      "tags": [
+        "AgenticAI",
+        "Claude",
+        "Anthropic",
+        "RemoteWorker"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/StockSavvyShay/status/2036218152082874739",
+      "why": "AI 智能体从对话走向实际执行，标志着 AI 自主操作能力的重大突破。\n>\n> **互动指标**: viral 高热度\n> **原文链接**: [跳转](https://x.com/StockSavvyShay/status/2036218152082874739)",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-03-24",
+      "title": "AI-Generated Content & \"AI Slop\" Backlash",
+      "summary": "NVIDIA CEO 黄仁勋回应玩家对 DLSS 5 和 AI 生成视觉内容的抱怨，表示理解\"AI 废料\"疲劳。",
+      "category": "ai_app",
+      "tags": [
+        "NVIDIA",
+        "DLSS5",
+        "JensenHuang",
+        "AISlop"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/Pirat_Nation/status/2036216168370020775",
+      "why": "反映了用户对过度 AI 生成内容的审美疲劳，市场开始质疑 AI 内容质量。\n>\n> **互动指标**: 高互动讨论\n> **原文链接**: [跳转](https://x.com/Pirat_Nation/status/2036216168370020775)",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-03-24",
+      "title": "Multimodal & Productivity AI Updates",
+      "summary": "Google Gemini 升级 Workspace，跨邮件/文档自动生成文档和演示；Claude 跨 Excel/PowerPoint 共享上下文实现自动化工作流。",
+      "category": "software_recommendation",
+      "tags": [
+        "Gemini",
+        "Workspace",
+        "Claude",
+        "Multimodal"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week",
+      "why": "多模态 AI 进入生产力工具核心，企业办公效率将迎来质变。\n>\n> **原文链接**: [跳转](https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week)",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-03-24",
+      "title": "AI in Coding, Security & Specialized Tools",
+      "summary": "AIDA 工具连接 LLM 与渗透测试套件（Nmap/Sqlmap）实现自主安全审计；开源智能体项目获得关注。",
+      "category": "open_source_project",
+      "tags": [
+        "AIDA",
+        "Security",
+        "PenTesting",
+        "OpenSource"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/EsGeeks/status/2035862201055994170",
+      "why": "AI 在安全领域的专业化应用，展示了从通用到垂直领域的深化趋势。\n>\n> **互动指标**: 安全社区高关注\n> **原文链接**: [跳转](https://x.com/EsGeeks/status/2035862201055994170)",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-03-24",
+      "title": "AI Ethics, Governance & Real-World Impact",
+      "summary": "Crypto-AI 跨界融合：AI 智能体与区块链结合（链上 AI 分析师、Instaclaw 平台等）。",
+      "category": "ai_app",
+      "tags": [
+        "CryptoAI",
+        "Blockchain",
+        "DeFi",
+        "AI"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/XTexchange/status/2035894003229769750",
+      "why": "AI 与 Web3 融合创造新赛道，可能重塑金融分析和服务模式。\n>\n> **原文链接**: [跳转](https://x.com/XTexchange/status/2035894003229769750)",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-03-24",
+      "title": "Hardware, Models & Industry Moves",
+      "summary": "NVIDIA 持续主导 AI 芯片市场；xAI 等实验室发布物理世界理解/机器人模型；本地运行大规模模型（397B 参数）技术突破。",
+      "category": "ai_app",
+      "tags": [
+        "NVIDIA",
+        "xAI",
+        "Robotics",
+        "LocalAI"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "",
+      "why": "硬件与模型协同演进，本地 AI 能力突破预示着隐私优先的 AI 未来。",
+      "sources": 1
+    }
+  ]
+}

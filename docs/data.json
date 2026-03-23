@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-23T11:11:17.656879",
-    "total": 47,
-    "today": "2026-03-23"
+    "generated_at": "2026-03-24T07:19:30.280069",
+    "total": 63,
+    "today": "2026-03-24"
   },
   "categories": [
     "AI",
@@ -11,6 +11,7 @@
     "software_recommendation",
     "产品",
     "应用",
+    "政策",
     "智能体",
     "机器人",
     "模型",
@@ -18,6 +19,7 @@
     "融资"
   ],
   "dates": [
+    "2026-03-24",
     "2026-03-23",
     "2026-03-22",
     "2026-03-21",
@@ -25,7 +27,251 @@
   ],
   "news": [
     {
+      "id": 2,
+      "date": "2026-03-24",
+      "title": "Agentic AI and Autonomous Tools",
+      "summary": "Anthropic 发布 Claude Remote Worker，可自主打开应用、浏览网页、编辑表格并处理桌面任务。",
+      "category": "ai_app",
+      "tags": [
+        "AgenticAI",
+        "Claude",
+        "Anthropic",
+        "RemoteWorker"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/StockSavvyShay/status/2036218152082874739",
+      "why": "AI 智能体从对话走向实际执行，标志着 AI 自主操作能力的重大突破。\n>\n> **互动指标**: viral 高热度\n> **原文链接**: [跳转](https://x.com/StockSavvyShay/status/2036218152082874739)",
+      "sources": 1
+    },
+    {
       "id": 3,
+      "date": "2026-03-24",
+      "title": "AI-Generated Content & \"AI Slop\" Backlash",
+      "summary": "NVIDIA CEO 黄仁勋回应玩家对 DLSS 5 和 AI 生成视觉内容的抱怨，表示理解\"AI 废料\"疲劳。",
+      "category": "ai_app",
+      "tags": [
+        "NVIDIA",
+        "DLSS5",
+        "JensenHuang",
+        "AISlop"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/Pirat_Nation/status/2036216168370020775",
+      "why": "反映了用户对过度 AI 生成内容的审美疲劳，市场开始质疑 AI 内容质量。\n>\n> **互动指标**: 高互动讨论\n> **原文链接**: [跳转](https://x.com/Pirat_Nation/status/2036216168370020775)",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-03-24",
+      "title": "Multimodal & Productivity AI Updates",
+      "summary": "Google Gemini 升级 Workspace，跨邮件/文档自动生成文档和演示；Claude 跨 Excel/PowerPoint 共享上下文实现自动化工作流。",
+      "category": "software_recommendation",
+      "tags": [
+        "Gemini",
+        "Workspace",
+        "Claude",
+        "Multimodal"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week",
+      "why": "多模态 AI 进入生产力工具核心，企业办公效率将迎来质变。\n>\n> **原文链接**: [跳转](https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week)",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-03-24",
+      "title": "AI in Coding, Security & Specialized Tools",
+      "summary": "AIDA 工具连接 LLM 与渗透测试套件（Nmap/Sqlmap）实现自主安全审计；开源智能体项目获得关注。",
+      "category": "open_source_project",
+      "tags": [
+        "AIDA",
+        "Security",
+        "PenTesting",
+        "OpenSource"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/EsGeeks/status/2035862201055994170",
+      "why": "AI 在安全领域的专业化应用，展示了从通用到垂直领域的深化趋势。\n>\n> **互动指标**: 安全社区高关注\n> **原文链接**: [跳转](https://x.com/EsGeeks/status/2035862201055994170)",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-03-24",
+      "title": "AI Ethics, Governance & Real-World Impact",
+      "summary": "Crypto-AI 跨界融合：AI 智能体与区块链结合（链上 AI 分析师、Instaclaw 平台等）。",
+      "category": "ai_app",
+      "tags": [
+        "CryptoAI",
+        "Blockchain",
+        "DeFi",
+        "AI"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "https://x.com/XTexchange/status/2035894003229769750",
+      "why": "AI 与 Web3 融合创造新赛道，可能重塑金融分析和服务模式。\n>\n> **原文链接**: [跳转](https://x.com/XTexchange/status/2035894003229769750)",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-03-24",
+      "title": "Hardware, Models & Industry Moves",
+      "summary": "NVIDIA 持续主导 AI 芯片市场；xAI 等实验室发布物理世界理解/机器人模型；本地运行大规模模型（397B 参数）技术突破。",
+      "category": "ai_app",
+      "tags": [
+        "NVIDIA",
+        "xAI",
+        "Robotics",
+        "LocalAI"
+      ],
+      "heat": 0,
+      "source": "x",
+      "url": "",
+      "why": "硬件与模型协同演进，本地 AI 能力突破预示着隐私优先的 AI 未来。",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-03-23",
+      "title": "OpenAI要求谷歌将ChatGPT列为默认搜索引擎之一: AI 监管开始从讨论走向执行",
+      "summary": "OpenAI已请求英国监管机构，要求谷歌将其聊天机器人ChatGPT作为可选搜索引擎之一提供给用户，若用户被允许将AI聊天机器人设为默认搜索引擎，将对谷歌搜索引擎业务构成新的挑战",
+      "category": "政策",
+      "tags": [
+        "OpenAI",
+        "谷歌",
+        "机器人"
+      ],
+      "heat": 339,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10115.html",
+      "why": "监管口径一旦收紧，会直接影响模型训练、内容分发和商业化边界。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10115.html) | **发布时间**: 2026-03-23 21:30",
+      "sources": 3
+    },
+    {
+      "id": 4,
+      "date": "2026-03-23",
+      "title": "EA推销150亿美元债务计划，以资助沙特主导的550亿美元私有化交易: 资本正在重新定价 AI 赛道",
+      "summary": "EA推销150亿美元债务计划以融资550亿美元沙特主导私有化交易，目标通过实现近7亿美元年度成本节约来支持这一大规模并购项目",
+      "category": "融资",
+      "tags": [
+        "融资",
+        "估值",
+        "并购"
+      ],
+      "heat": 38,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10113.html",
+      "why": "融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 0 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10113.html) | **发布时间**: 2026-03-23 21:11",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-03-23",
+      "title": "Kandou AI转向AI基础设施，获2.25亿美元融资，估值达4亿美元: 算力和芯片供给仍是行业上限",
+      "summary": "AI芯片公司Kandou AI宣布从软银、Synopsys等投资者完成2.25亿美元融资，公司估值达4亿美元",
+      "category": "芯片",
+      "tags": [
+        "芯片",
+        "融资",
+        "算力"
+      ],
+      "heat": 37,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10111.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 0 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10111.html) | **发布时间**: 2026-03-23 20:40",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-03-23",
+      "title": "Dash0公司获1.1亿美元融资，估值10亿美元: 资本正在重新定价 AI 赛道",
+      "summary": "纽约AI初创公司Dash0在由欧洲风投巨头Balderton Capital领投的融资中成功筹集1.1亿美元，公司估值突破10亿美元大关，成为云基础设施监控领域的独角兽",
+      "category": "融资",
+      "tags": [
+        "融资",
+        "估值",
+        "并购"
+      ],
+      "heat": 16,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10106.html",
+      "why": "融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 0 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10106.html) | **发布时间**: 2026-03-23 19:30",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-03-23",
+      "title": "AWS庆祝20周年，市场领先，回应ChatGPT挑战，押注人工智能未来: AI 产品正努力改变默认入口",
+      "summary": "AWS在其20周年发展历程中，已经成为全球云计算市场的领导者，核心业务涵盖云计算服务、电子商务、广告和物流",
+      "category": "产品",
+      "tags": [
+        "产品化",
+        "功能上线",
+        "用户入口"
+      ],
+      "heat": 215,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10103.html",
+      "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 2 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10103.html) | **发布时间**: 2026-03-23 17:30",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-03-23",
+      "title": "蚂蚁CEO韩歆毅：AI不仅要成为生产力工具，更要造福于人: 大模型竞争继续向生态和落地延伸",
+      "summary": "蚂蚁集团CEO韩歆毅强调，在AI时代蚂蚁要将AI作为改善人民生活的工具，而非仅限于生产力应用",
+      "category": "模型",
+      "tags": [
+        "大模型",
+        "训练",
+        "推理"
+      ],
+      "heat": 334,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10101.html",
+      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10101.html) | **发布时间**: 2026-03-23 17:10",
+      "sources": 3
+    },
+    {
+      "id": 9,
+      "date": "2026-03-23",
+      "title": "Andrej Karpathy实验AI代理循环优化训练代码以提升模型: 算力和芯片供给仍是行业上限",
+      "summary": "2026年3月，AI研究者Andrej Karpathy发布开源项目「autoresearch」，推出一个自主AI研究框架，单块GPU即可在一晚上自动运行约100次模型优化实验，实现AI自身迭代LLM的突破",
+      "category": "芯片",
+      "tags": [
+        "算力",
+        "供应链",
+        "芯片"
+      ],
+      "heat": 233,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10099.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10099.html) | **发布时间**: 2026-03-23 16:20",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-03-23",
+      "title": "小米未来五年研发投入将超2000亿: 算力和芯片供给仍是行业上限",
+      "summary": "小米集团创始人兼CEO雷军3月22日在中国发展高层论坛2026年年会上宣布，小米未来五年（2026-2030年）计划研发投入将超过2000亿元，相较过去五年超1000亿元的投入规模实现翻倍增长，将聚焦于芯片、操作系统",
+      "category": "芯片",
+      "tags": [
+        "芯片",
+        "算力",
+        "供应链"
+      ],
+      "heat": 232,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10091.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10091.html) | **发布时间**: 2026-03-23 11:22",
+      "sources": 1
+    },
+    {
+      "id": 11,
       "date": "2026-03-23",
       "title": "韩国芯片出口3月前20天同比增163.9%，因AI需求强劲: 算力和芯片供给仍是行业上限",
       "summary": "韩国芯片出口在人工智能热潮驱动下实现爆发性增长",
@@ -35,14 +281,14 @@
         "算力",
         "供应链"
       ],
-      "heat": 419,
+      "heat": 431,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10085.html",
-      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10085.html) | **发布时间**: 2026-03-23 10:10",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10085.html) | **发布时间**: 2026-03-23 10:10",
       "sources": 4
     },
     {
-      "id": 4,
+      "id": 12,
       "date": "2026-03-23",
       "title": "扎克伯格正在打造AI智能体，助力自己履行CEO职责: AI 正从问答工具转向执行工具",
       "summary": "Meta首席执行官马克·扎克伯格在2026年1月宣布，AI智能体正在Meta内部取得实际成果，帮助员工自动化复杂工作并加快产品开发，扎克伯格表示2026年将成为AI开始戏剧性改变公司运作方式的关键一年",
@@ -52,14 +298,99 @@
         "智能体",
         "任务执行"
       ],
-      "heat": 318,
+      "heat": 330,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10078.html",
-      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10078.html) | **发布时间**: 2026-03-23 07:10",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10078.html) | **发布时间**: 2026-03-23 07:10",
       "sources": 3
     },
     {
+      "id": 3,
+      "date": "2026-03-23",
+      "title": "蚂蚁CEO韩歆毅：AI不仅要成为生产力工具，更要造福于人: 大模型竞争继续向生态和落地延伸",
+      "summary": "蚂蚁集团CEO韩歆毅强调，在AI时代蚂蚁要将AI作为改善人民生活的工具，而非仅限于生产力应用",
+      "category": "模型",
+      "tags": [
+        "大模型",
+        "训练",
+        "推理"
+      ],
+      "heat": 319,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10101.html",
+      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10101.html) | **发布时间**: 2026-03-23 17:10",
+      "sources": 3
+    },
+    {
+      "id": 4,
+      "date": "2026-03-23",
+      "title": "Andrej Karpathy实验AI代理循环优化训练代码以提升模型: 算力和芯片供给仍是行业上限",
+      "summary": "2026年3月，AI研究者Andrej Karpathy发布开源项目「autoresearch」，推出一个自主AI研究框架，单块GPU即可在一晚上自动运行约100次模型优化实验，实现AI自身迭代LLM的突破",
+      "category": "芯片",
+      "tags": [
+        "算力",
+        "供应链",
+        "芯片"
+      ],
+      "heat": 218,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10099.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 2 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10099.html) | **发布时间**: 2026-03-23 16:20",
+      "sources": 1
+    },
+    {
       "id": 5,
+      "date": "2026-03-23",
+      "title": "小米未来五年研发投入将超2000亿: 算力和芯片供给仍是行业上限",
+      "summary": "小米集团创始人兼CEO雷军3月22日在中国发展高层论坛2026年年会上宣布，小米未来五年（2026-2030年）计划研发投入将超过2000亿元，相较过去五年超1000亿元的投入规模实现翻倍增长，将聚焦于芯片、操作系统",
+      "category": "芯片",
+      "tags": [
+        "芯片",
+        "算力",
+        "供应链"
+      ],
+      "heat": 237,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10091.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10091.html) | **发布时间**: 2026-03-23 11:22",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-03-23",
+      "title": "韩国芯片出口3月前20天同比增163.9%，因AI需求强劲: 算力和芯片供给仍是行业上限",
+      "summary": "韩国芯片出口在人工智能热潮驱动下实现爆发性增长",
+      "category": "芯片",
+      "tags": [
+        "芯片",
+        "算力",
+        "供应链"
+      ],
+      "heat": 436,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10085.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10085.html) | **发布时间**: 2026-03-23 10:10",
+      "sources": 4
+    },
+    {
+      "id": 7,
+      "date": "2026-03-23",
+      "title": "扎克伯格正在打造AI智能体，助力自己履行CEO职责: AI 正从问答工具转向执行工具",
+      "summary": "Meta首席执行官马克·扎克伯格在2026年1月宣布，AI智能体正在Meta内部取得实际成果，帮助员工自动化复杂工作并加快产品开发，扎克伯格表示2026年将成为AI开始戏剧性改变公司运作方式的关键一年",
+      "category": "智能体",
+      "tags": [
+        "Meta",
+        "智能体",
+        "任务执行"
+      ],
+      "heat": 335,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10078.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10078.html) | **发布时间**: 2026-03-23 07:10",
+      "sources": 3
+    },
+    {
+      "id": 8,
       "date": "2026-03-23",
       "title": "AI实验室正致力于自动化生活，瞄准非程序员市场: AI 正从问答工具转向执行工具",
       "summary": "2026年被正式定义为AI智能体元年，继Claude Code等编程工具之后，通用型AI智能体正在加速渗透各行各业",
@@ -69,14 +400,14 @@
         "智能体",
         "任务执行"
       ],
-      "heat": 537,
+      "heat": 534,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10077.html",
       "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 5 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 5 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10077.html) | **发布时间**: 2026-03-23 04:30",
       "sources": 5
     },
     {
-      "id": 6,
+      "id": 9,
       "date": "2026-03-22",
       "title": "英伟达的智驾野心，藏不住了: 算力和芯片供给仍是行业上限",
       "summary": "英伟达在GTC 2026大会上发布了Vera Rubin平台和Rubin芯片，并宣布启动'Terafab'计划，旨在打造全球最大的AI芯片工厂，计算能力提升五倍，显示其在AI时代的战略雄心扩张到更广泛的算力基础设施领域",
@@ -86,14 +417,14 @@
         "算力",
         "芯片"
       ],
-      "heat": 336,
+      "heat": 333,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10075.html",
       "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10075.html) | **发布时间**: 2026-03-22 21:00",
       "sources": 3
     },
     {
-      "id": 7,
+      "id": 10,
       "date": "2026-03-22",
       "title": "Cloaked获3.75亿美元B轮融资，扩展企业安全与隐私服务: AI 产品正努力改变默认入口",
       "summary": "隐私安全公司Cloaked于2026年3月19日宣布成功筹集3.75亿美元B轮融资及增长资金，由General Catalyst和Liberty City Ventures领投，将用于扩展企业市场、拓展全球业务并推进AI驱动的产品创新",
@@ -103,14 +434,14 @@
         "产品化",
         "功能上线"
       ],
-      "heat": 235,
+      "heat": 232,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10069.html",
       "why": "系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。\n>\n> **互动指标**: 来源数 2 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10069.html) | **发布时间**: 2026-03-22 13:10",
       "sources": 1
     },
     {
-      "id": 8,
+      "id": 11,
       "date": "2026-03-22",
       "title": "腾讯张军回应微信ClawBot插件，强调微信连接人、设备、服务: 具身智能正在加速进入真实场景",
       "summary": "腾讯及阿里、百度等科技巨头自2026年1月底起纷纷推出基于OpenClaw框架的本土化AI代理产品，其中腾讯推出了QClaw、企业微信OpenClaw智能机器人等多款应用，主打与微信、QQ等生态工具的无缝整合，体现了这些平台作为连接人",
@@ -120,14 +451,14 @@
         "阿里",
         "机器人"
       ],
-      "heat": 134,
+      "heat": 131,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10067.html",
       "why": "具身智能最难的是从 Demo 走向稳定量产和真实场景，这类消息通常代表落地进展。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10067.html) | **发布时间**: 2026-03-22 11:40",
       "sources": 1
     },
     {
-      "id": 9,
+      "id": 12,
       "date": "2026-03-22",
       "title": "马斯克在演示中展示了微型 AI 卫星的设计方案: AI 正在更直接地改变消费和工作流程",
       "summary": "马斯克在最新演示中详细阐述了微型AI卫星的设计方案，包括构建每年100GW级别的空间太阳能AI卫星阵列、在月球制造卫星，以及2026年第四季大规模发射新一代StarLink V3卫星等核心内容",
@@ -137,62 +468,11 @@
         "真实场景",
         "商业化"
       ],
-      "heat": 633,
+      "heat": 630,
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10066.html",
       "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。 这条消息来自 6 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 6 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10066.html) | **发布时间**: 2026-03-22 10:00",
       "sources": 6
-    },
-    {
-      "id": 10,
-      "date": "2026-03-22",
-      "title": "Grow Therapy获1.5亿美元融资，高盛、红杉押注AI心理健康平台: 资本正在重新定价 AI 赛道",
-      "summary": "美国心理健康服务平台Grow Therapy于3月3日宣布完成1.5亿美元D轮融资，由TCV与高盛旗下Growth Equity领投，红杉等多家知名机构继续参与，融资将用于加强与保险、企业及医疗机构的整合",
-      "category": "融资",
-      "tags": [
-        "融资",
-        "估值",
-        "并购"
-      ],
-      "heat": 132,
-      "source": "huxiu",
-      "url": "https://www.huxiu.com/ainews/10064.html",
-      "why": "融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10064.html) | **发布时间**: 2026-03-22 08:30",
-      "sources": 1
-    },
-    {
-      "id": 11,
-      "date": "2026-03-22",
-      "title": "马斯克：Terafab项目即将公布，年产能超1太瓦算力: 算力和芯片供给仍是行业上限",
-      "summary": "特斯拉首席执行官埃隆·马斯克于2026年3月14日宣布，公司的\"Terafab\"AI芯片制造项目将在七天内启动，即3月21日正式开启",
-      "category": "芯片",
-      "tags": [
-        "算力",
-        "芯片",
-        "供应链"
-      ],
-      "heat": 411,
-      "source": "huxiu",
-      "url": "https://www.huxiu.com/ainews/10063.html",
-      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10063.html) | **发布时间**: 2026-03-22 08:30",
-      "sources": 4
-    },
-    {
-      "id": 12,
-      "date": "2026-03-22",
-      "title": "广告商称首批ChatGPT广告技术含量低，尚无效果数据: 大模型竞争继续向生态和落地延伸",
-      "summary": "OpenAI于2026年2月9日在美国开始针对免费版和Go版用户进行ChatGPT广告测试，但首批购买广告活动的广告商反映该过程技术含量较低，且尚未获得充分的广告效果数据反馈",
-      "category": "模型",
-      "tags": [
-        "OpenAI",
-        "大模型",
-        "训练"
-      ],
-      "heat": 310,
-      "source": "huxiu",
-      "url": "https://www.huxiu.com/ainews/10056.html",
-      "why": "大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10056.html) | **发布时间**: 2026-03-22 01:30",
-      "sources": 3
     },
     {
       "id": 2,
