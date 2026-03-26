@@ -1,195 +1,152 @@
 # X AI 热点 | 2026-03-26
 
-> 来源：X (Twitter)  
-> 时间范围：最近 24 小时（2026-03-25 至今）  
-> 抓取时间：2026-03-26 18:57 (GMT+8)
+> 更新时间: 2026-03-26 19:26:00  
+> 来源: X (Twitter) via Grok  
+> 仓库: moyans/ai-news-daily
 
 ---
 
-## [Top 1] xAI Grok Imagine 横扫视频生成领域
+## [Top 1] Anthropic 发布 Claude Code 自动模式
 
-**核心速递**：Elon Musk 发帖称，Grok Imagine 在 DesignArena 视频基准测试中包揽4个第一（视频生成、视频转视频、图像转视频、多图像转视频），超越 Veo 3.1、Sora、Kling 等竞品，短短几个月从无人问津到全面领先。
+**核心速递**：Anthropic 推出 Claude Code 自动模式，通过分类器实现无需每次人工确认的更安全 AI 代理工作流。
 
-**作者**：@elonmusk  
-**原文链接**：[跳转](https://x.com/elonmusk/status/2036972742218834073)
-
----
-
-## [Top 2] Google TurboQuant 算法成年度最大新闻
-
-**核心速递**：Google 发布 TurboQuant 压缩算法，将 LLM 键值缓存内存减少至少6倍、速度提升8倍且零精度损失，被誉为本地AI革命性突破，可让 Mac Mini 等设备运行高性能模型，上下文窗口大幅延长。
-
-**作者**：@AlexFinn  
-**原文链接**：[跳转](https://x.com/AlexFinn/status/2036677722400035067)
+**作者**：@AnthropicAI  
+**原文链接**：[跳转](https://x.com/AnthropicAI/status/2036944806317088921)
 
 ---
 
-## [Top 3] TurboQuant 引发内存股市震荡
+## [Top 2] 开源 SOTA OCR 模型震撼发布
 
-**核心速递**：Google TurboQuant 发布后，内存相关股票（如 Micron、Sandisk 等）大幅下跌，市场担忧 AI 对高带宽内存需求将锐减，可能戳破部分 AI 泡沫。
+**核心速递**：全新开源 OCR 模型在 olmocr 基准达 85.9% SOTA，支持 90+ 语言、完整布局提取、手写/数学/表格识别，参数仅 4B。
 
-**作者**：@cryptopunk7213  
-**原文链接**：[跳转](https://x.com/cryptopunk7213/status/2036803164410695772)
-
----
-
-## [Top 4] ARC-AGI-3 基准发布，AGI 差距仍巨大
-
-**核心速递**：ARC Prize 推出 ARC-AGI-3 代理智能基准，人类得分100%，当前 AI 得分不足1%，强调该测试聚焦"学习能力"而非记忆，证明现有模型远未达到 AGI。
-
-**作者**：@arcprize  
-**原文链接**：[跳转](https://x.com/arcprize/status/2036860080541589529)
+**作者**：@akshay_pachaar  
+**原文链接**：[跳转](https://x.com/akshay_pachaar/status/2036798654758232516)
 
 ---
 
-## [Top 5] TurboQuant 让本地 AI 彻底起飞
+## [Top 3] Google 推出 Vibe Coding XR 快速原型工作流
 
-**核心速递**：详细解析显示，TurboQuant 让本地运行模型更高效、长上下文无衰减，免费开源特性缩小了云订阅（如 Claude $200/月）与本地免费 AI 的差距，未来本地 AI 将成主流。
+**核心速递**：Google Research 发布 Vibe Coding XR，利用 Gemini Canvas + XR Blocks 将提示转为支持物理交互的 WebXR 应用，加速空间 AI 原型开发。
 
-**作者**：@NoahEpstein_  
-**原文链接**：[跳转](https://x.com/NoahEpstein_/status/2036732439192596983)
-
----
-
-## [Top 6] 白宫 AI 峰会强调人形机器人与全球合作
-
-**核心速递**：第一夫人 Melania Trump 发帖介绍"45国+1个人形机器人"白宫全球峰会，AI 将整合人类数百年知识库，推动未来发展。
-
-**作者**：@FLOTUS  
-**原文链接**：[跳转](https://x.com/FLOTUS/status/2036975056585150896)
+**作者**：@GoogleResearch  
+**原文链接**：[跳转](https://x.com/GoogleResearch/status/2036904458974871944)
 
 ---
 
-## [Top 7] 首个人形机器人在白宫亮相
+## [Top 4] Google 发布 TurboQuant LLM 压缩算法
 
-**核心速递**：Figure 机器人创始人 Brett Adcock 晒出首个人形机器人在白宫的照片，标志机器人与 AI 融合进入政策视野。
+**核心速递**：Google 推出 TurboQuant，将 LLM KV 缓存内存压缩至少 6 倍、速度提升 8 倍且零精度损失，大幅提升长上下文推理效率。
 
-**作者**：@adcock_brett  
-**原文链接**：[跳转](https://x.com/adcock_brett/status/2037025177297686839)
-
----
-
-## [Top 8] GitHub 免费 AI/ML 面试题仓库火爆
-
-**核心速递**：开源仓库提供300+道覆盖 LLM 基础、RAG、Agent、微调、向量数据库、LLMOps、安全伦理等问题的 Q&A，适合 AI 工程师、MLOps 等职位备考。
-
-**作者**：@_vmlops  
-**原文链接**：[跳转](https://x.com/_vmlops/status/2036702814722998602)
+**作者**：@StockSavvyShay  
+**原文链接**：[跳转](https://x.com/StockSavvyShay/status/2036767992797958203)
 
 ---
 
-## [Top 9] Google 算法重创 RAM 厂商
+## [Top 5] 开源强化学习交易框架 TensorTrade 发布
 
-**核心速递**：Google 新 AI 算法将内存使用降低6倍、速度提升8倍，导致 RAM 公司股价暴跌并报告巨额损失。
+**核心速递**：全新开源 Python 库 TensorTrade 提供基于强化学习的算法交易框架，帮助开发者快速构建 AI 驱动的量化交易系统。
 
-**作者**：@DeepTechTR  
-**原文链接**：[跳转](https://x.com/DeepTechTR/status/2037043633786855608)
-
----
-
-## [Top 10] Gemini 3.1 Flash-Lite 驱动实时生成浏览器
-
-**核心速递**：Google DeepMind 推出基于该模型的浏览器，能根据用户点击、搜索、导航实时生成 HTML/CSS 页面，彻底改变传统静态网站模式，支持深度个性化与 Agent 工作流。
-
-**作者**：@rohanpaul_ai  
-**原文链接**：[跳转](https://x.com/rohanpaul_ai/status/2036640799048577278)
+**作者**：@quantscience_  
+**原文链接**：[跳转](https://x.com/quantscience_/status/2036834550182019134)
 
 ---
 
-## [Top 11] 印度开发者开源提示框架登顶 GitHub
+## [Top 6] Google DeepMind 发布 Lyria 3 Pro 音乐模型
 
-**核心速递**：一位独立开发者用14个月打造的提示框架在 GitHub 排名第一，无 VC 支持，性能超越主流基准，已被用于 OpenClaw 等 Agent 工具。
+**核心速递**：Google DeepMind 推出最先进音乐生成模型 Lyria 3 Pro，支持最长 3 分钟曲目及复杂结构过渡，已集成至 Gemini 等多款产品。
 
-**作者**：@thisguyknowsai  
-**原文链接**：[跳转](https://x.com/thisguyknowsai/status/2037085698101305530)
-
----
-
-## [Top 12] AI 团队制胜关键：Harness Engineering
-
-**核心速递**：顶级 AI 团队不再只拼模型，而是专注"代理工程"（接口、上下文管理、进度文件、完成标准等），8点实战要点可显著提升 Agent 可靠性。
-
-**作者**：@rohit4verse  
-**原文链接**：[跳转](https://x.com/rohit4verse/status/2036845273117581676)
+**作者**：@testingcatalog  
+**原文链接**：[跳转](https://x.com/testingcatalog/status/2036838766682235218)
 
 ---
 
-## [Top 13] Claude Code 助力一人管理60家公司
+## [Top 7] NVIDIA 发布 Nemotron Nano 12B 视频理解开源模型
 
-**核心速递**：日本税务师分享使用 Claude Code（桌面版）实现全自动经理、提案、异常检测等，一人处理60家客户，强调最终人工确认与知识库管理。
-
-**作者**：@kandmybike  
-**原文链接**：[跳转](https://x.com/kandmybike/status/2037090238791836107)
-
----
-
-## [Top 14] NVIDIA 推 LangChain Agentic 工具升级
-
-**核心速递**：NVIDIA 开发者直播介绍 LangChain 的 Deep Agent Harness 与 LangSmith，支持复杂长时任务追踪与生产优化，提升 LLM Agent 性能与可靠性。
+**核心速递**：NVIDIA 推出 Nemotron Nano 12B v2 VL 开源模型，在媒体任务上媲美 30B 模型，支持本地视频理解并完全开源训练数据。
 
 **作者**：@NVIDIAAIDev  
-**原文链接**：[跳转](https://x.com/NVIDIAAIDev/status/2036866268255441376)
+**原文链接**：[跳转](https://x.com/NVIDIAAIDev/status/2036901324156264598)
 
 ---
 
-## [Top 15] TurboQuant 大幅降低 LLM 推理成本
+## [Top 8] 开源离线 AI 生存电脑 Project N.O.M.A.D.
 
-**核心速递**：该算法在服务端也能显著压缩内存、加速推理，成为降低大模型部署成本的关键开源技术。
+**核心速递**：开源 Project N.O.M.A.D. 打造零网络完全离线生存电脑，集成 Wikipedia、地图、本地 Ollama AI 模型，适合断网环境一键部署。
 
-**作者**：@asmah2107  
-**原文链接**：[跳转](https://x.com/asmah2107/status/2036801422873051440)
-
----
-
-## [Top 16] AI 公司加速垂直化转型
-
-**核心速递**：Harvey 从法律扩展到专业服务（与 PwC 共建税务 AI），Glean 专注行业 Agent，ElevenLabs 进军语音 Agent，OpenAI/Anthropic 也组建行业团队，不再只卖 API。
-
-**作者**：@ttunguz  
-**原文链接**：[跳转](https://x.com/ttunguz/status/2036891773163954672)
+**作者**：@heygurisingh  
+**原文链接**：[跳转](https://x.com/heygurisingh/status/2036814827008713143)
 
 ---
 
-## [Top 17] Sakana AI 获三菱电机出资
+## [Top 9] Claude Code 完整 AI 工程系统开源
 
-**核心速递**：日本 Sakana AI 宣布获得三菱电机投资，将最先进 AI 与制造领域知识结合，聚焦物理 AI 与产业落地。
+**核心速递**：Claude Code 开源全套 AI 工程系统，包含 28 个代理、116 项技能、59 条命令及内置安全扫描器。
 
-**作者**：@SakanaAILabs  
-**原文链接**：[跳转](https://x.com/SakanaAILabs/status/2037118877612859545)
-
----
-
-## [Top 18] OpenClaw 上线无代码自主 AI 代理
-
-**核心速递**：新产品允许用户零编码部署全自主 Agent，24/7 执行任务、学习优化，已有开发者用其构建实际工作流。
-
-**作者**：@TechByMarkandey  
-**原文链接**：[跳转](https://x.com/TechByMarkandey/status/2037094997074600074)
+**作者**：@RoundtableSpace  
+**原文链接**：[跳转](https://x.com/RoundtableSpace/status/2036997818569957866)
 
 ---
 
-## [Top 19] Xiaomi 首发免费高性能模型 Myo V2 Pro
+## [Top 10] LiteLLM 开源 LLM 统一网关破 10 亿请求
 
-**核心速递**：该模型上下文窗口达100万 token，基准接近 Claude Opus，支持 OpenClaw 等工具，一条提示即可生成网站或游戏，已成 OpenRouter 最受欢迎模型之一。
+**核心速递**：LiteLLM 开源项目提供 100+ LLM 统一接口，支持自动切换、成本跟踪、负载均衡，已处理 10 亿请求，完全免费自托管。
 
-**作者**：@JulianGoldieSEO  
-**原文链接**：[跳转](https://x.com/JulianGoldieSEO/status/2037116303249727626)
+**作者**：@heynavtoor  
+**原文链接**：[跳转](https://x.com/heynavtoor/status/2037055150591009152)
 
 ---
 
-## [Top 20] 过去24小时 AI 重大事件快报
+## [Top 11] 开源 AI 代理 Docker 配置工具上线
 
-**核心速递**：OpenAI 完成新模型"Spud"预训练（数周内发布）；Arm 推出136核 AGI CPU；Anthropic 发布计算机使用功能（Claude 可直接控制 Mac）；CrowdStrike 推 AgentWorks 安全平台；Harvey 获2亿美元融资估值110亿美元等。
+**核心速递**：有人开源 AI 代理 Docker 配置，一次定义即可无缝运行于 Claude Code、OpenAI、CrewAI、LangChain 等多框架，100% 开源。
 
-**作者**：@krishdotdev  
-**原文链接**：[跳转](https://x.com/krishdotdev/status/2036852497953022279)
+**作者**：@unwind_ai_  
+**原文链接**：[跳转](https://x.com/unwind_ai_/status/2036983820130672873)
+
+---
+
+## [Top 12] Meituan 发布 LongCat-Next 多模态基础模型
+
+**核心速递**：Meituan 推出 LongCat-Next 74B 多模态模型，采用统一 token 空间 + DiNA 学习范式，支持图像理解、生成与对话，MIT 许可开源。
+
+**作者**：@AdinaYakup  
+**原文链接**：[跳转](https://x.com/AdinaYakup/status/2036899293101989962)
+
+---
+
+## [Top 13] Pippit AI 发布 Dreamina Seedance 2.0 视频模型
+
+**核心速递**：Pippit AI 推出新模型 Dreamina Seedance 2.0，早鸟访问已上线，AI 视频生成能力迈出显著一步。
+
+**作者**：@Kawsar_Ai  
+**原文链接**：[跳转](https://x.com/Kawsar_Ai/status/2037067103518556413)
+
+---
+
+## [Top 14] ARC Prize 发布 ARC-AGI-3 开源代理工具包
+
+**核心速递**：ARC Prize Foundation 推出 ARC-AGI-3 基准及完整开源代理工具包，当前最佳 AI 预览得分 12.58%。
+
+**作者**：@awagents  
+**原文链接**：[跳转](https://x.com/awagents/status/2036931311210754466)
+
+---
+
+## [Top 15] NVIDIA Nemotron 3 Ultra 开源模型即将登场
+
+**核心速递**：NVIDIA 扩展开源模型家族，Nemotron 3 Ultra 在推理、编码、数学基准上树立新效率标准，即将发布。
+
+**作者**：@NVIDIAAIDev  
+**原文链接**：[跳转](https://x.com/NVIDIAAIDev/status/2036928028970807406)
 
 ---
 
 ## 📊 总结
 
-这些热点以 **Google 效率突破**、**xAI 视频领先**、**基准测试与 Agent 产品上线**为主，反映出 AI 正在从"模型参数竞赛"转向"效率、落地与垂直应用"。X 上讨论热度集中在开源/本地化技术和产业融合方向。
+**今日热点趋势：**
+- 🔥 **开源爆发** - 多个重磅开源项目发布（OCR、交易框架、AI工程系统）
+- 🚀 **Google 效率突破** - TurboQuant 算法、Lyria 3 Pro、Vibe Coding XR
+- 🤖 **Agent 生态** - Claude Code 自动模式、Docker 配置工具、ARC-AGI-3
+- 🎬 **多模态进展** - 视频理解、音乐生成、图像理解模型
 
----
-
-*Generated by OpenClaw X AI Trends Fetcher*
+*由 x-ai-trends-github Skill 自动生成，GitHub Push 时间: 2026-03-26 19:26:00*
