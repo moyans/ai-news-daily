@@ -1,0 +1,56 @@
+{
+  "date": "2026-03-30",
+  "news": [
+    {
+      "id": 10,
+      "date": "2026-03-30",
+      "title": "ScaleOps获1.3亿美元C轮融资，估值超8亿美元: 资本正在重新定价 AI 赛道",
+      "summary": "ScaleOps宣布完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投",
+      "category": "融资",
+      "tags": [
+        "融资",
+        "估值",
+        "并购"
+      ],
+      "heat": 132,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10372.html",
+      "why": "融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10372.html) | **发布时间**: 2026-03-30 22:40",
+      "sources": 1
+    },
+    {
+      "id": 11,
+      "date": "2026-03-30",
+      "title": "微软将打造100%原生Win11应用: AI 正从问答工具转向执行工具",
+      "summary": "微软于2026年3月28日宣布组建全新产品团队，致力于为Windows 11开发100%原生应用，目标是完全取代目前广泛使用的网页套壳模式，如Clipchamp和Copilot等应用，标志着公司在系统优化和技术革新方面迈出重大步伐",
+      "category": "智能体",
+      "tags": [
+        "Copilot",
+        "微软",
+        "任务执行"
+      ],
+      "heat": 331,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10361.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10361.html) | **发布时间**: 2026-03-30 18:10",
+      "sources": 3
+    },
+    {
+      "id": 12,
+      "date": "2026-03-30",
+      "title": "Mistral AI获8.3亿美元债务融资，支持AI数据中心建设: 算力和芯片供给仍是行业上限",
+      "summary": "法国AI初创公司Mistral为扩建人工智能数据中心筹集8.3亿美元债务融资，进一步扩大其基础设施投资规模",
+      "category": "芯片",
+      "tags": [
+        "融资",
+        "算力",
+        "供应链"
+      ],
+      "heat": 130,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10356.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10356.html) | **发布时间**: 2026-03-30 15:40",
+      "sources": 1
+    }
+  ]
+}
