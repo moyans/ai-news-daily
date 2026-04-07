@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-31T16:26:07.766870",
-    "total": 122,
-    "today": "2026-03-31"
+    "generated_at": "2026-04-07T20:27:34.496353",
+    "total": 132,
+    "today": "2026-04-07"
   },
   "categories": [
     "AI",
@@ -20,6 +20,7 @@
     "融资"
   ],
   "dates": [
+    "2026-04-07",
     "2026-03-31",
     "2026-03-30",
     "2026-03-27",
@@ -32,6 +33,136 @@
     "2026-03-20"
   ],
   "news": [
+    {
+      "id": 1,
+      "date": "2026-04-07",
+      "title": "美团、京东收紧外部AI使用权限",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 2,
+      "date": "2026-04-07",
+      "title": "“GPT-4o之母”宣布离职OpenAI",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-04-07",
+      "title": "谷歌更新Gemini AI模型，支持心理健康危机热线",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-04-07",
+      "title": "小马智行新加坡自动驾驶汽车获准进行邀请体验",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-04-07",
+      "title": "OpenAI推出安全奖学金计划，研究AI系统安全与一致性",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-04-07",
+      "title": "专注仿生情感交互机器人，首形科技完成数亿元A1轮融资",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-04-07",
+      "title": "博通将为谷歌供应TPU芯片、为Anthropic提供算力",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-04-07",
+      "title": "“千寻智能”完成新一轮10亿元融资",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 9,
+      "date": "2026-04-07",
+      "title": "Anthropic宣布正式封杀OpenClaw",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-04-07",
+      "title": "AI工具普及促公司加强AI生成代码的安全审查",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
     {
       "id": 2,
       "date": "2026-03-31",
