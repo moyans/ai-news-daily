@@ -31,11 +31,10 @@ items = data['items']
 
 md = f"# 虎嗅AI热点 {date}\n\n"
 for i, item in enumerate(items):
-    content = item['raw_json'].get('content_text', item['raw_json'].get('summary', ''))
+    # 使用 summary 字段（官方摘要），不要用 content_text
+    summary = item['raw_json'].get('summary', '')
     md += f"## [Top {i+1}] {item['title']}\n\n"
     md += f"**时间**: {item['captured_at']}\n\n"
-    # 摘要取前200字
-    summary = content[:300].strip() if content else ''
     md += f"{summary}\n\n"
     md += f"---\n\n"
 
@@ -64,6 +63,7 @@ fi
 
 # 5. 推送到远程
 echo "[5/5] 推送..."
+git remote set-url --push origin git@github.com:moyans/ai-news-daily.git 2>/dev/null || true
 git push origin main 2>&1
 
 # 6. 运行发布脚本
