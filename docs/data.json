@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-08T07:10:05.523161",
-    "total": 142,
-    "today": "2026-04-08"
+    "generated_at": "2026-04-09T07:11:52.034378",
+    "total": 152,
+    "today": "2026-04-09"
   },
   "categories": [
     "AI",
@@ -20,6 +20,7 @@
     "融资"
   ],
   "dates": [
+    "2026-04-09",
     "2026-04-08",
     "2026-04-07",
     "2026-03-31",
@@ -34,6 +35,136 @@
     "2026-03-20"
   ],
   "news": [
+    {
+      "id": 1,
+      "date": "2026-04-09",
+      "title": "DeepMind CEO建议所有生成式AI公司使用水印技术防范深度伪造和虚假信息",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 2,
+      "date": "2026-04-09",
+      "title": "阿里告别诸侯割据：吴泳铭为蒋凡接上AI大脑",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-04-09",
+      "title": "阿里电商AI重构围绕Token，组织调整迎新动向",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-04-09",
+      "title": "谷歌CEO皮查伊：2027年将是AI重塑生产方式的关键拐点",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-04-09",
+      "title": "淘宝直播2026新品目标成交增幅100%",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-04-09",
+      "title": "特斯拉推送FSD V14.3版本：反应速度提升20%",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-04-09",
+      "title": "“两仪万象”完成亿级A轮融资",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-04-09",
+      "title": "马斯克称SpaceXAI的Colossus 2正在训练6个模型",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 9,
+      "date": "2026-04-09",
+      "title": "苹果自研AI服务器芯片Baltra曝光，直接采购三星玻璃基板",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-04-09",
+      "title": "壁仞科技完成智谱新一代旗舰模型适配",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
     {
       "id": 1,
       "date": "2026-04-08",
