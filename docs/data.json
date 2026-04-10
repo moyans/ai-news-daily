@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-10T07:10:04.647901",
-    "total": 162,
-    "today": "2026-04-10"
+    "generated_at": "2026-04-11T07:13:08.263679",
+    "total": 172,
+    "today": "2026-04-11"
   },
   "categories": [
     "AI",
@@ -20,6 +20,7 @@
     "融资"
   ],
   "dates": [
+    "2026-04-11",
     "2026-04-10",
     "2026-04-09",
     "2026-04-08",
@@ -36,6 +37,136 @@
     "2026-03-20"
   ],
   "news": [
+    {
+      "id": 1,
+      "date": "2026-04-11",
+      "title": "思科洽谈收购Astrix Security，金额约2.5亿至3.5亿美元",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 2,
+      "date": "2026-04-11",
+      "title": "消费端承压、产业端抢货，AI算力重构内存市场",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-04-11",
+      "title": "消息人士：欧盟委员会计划未来对ChatGPT实施更严格监管",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-04-11",
+      "title": "科技巨头押注下一代核能 AI电力需求重塑能源融资格局",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-04-11",
+      "title": "阿里巴巴任命周靖人领导人工智能事业部。（英国金融时报）",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-04-11",
+      "title": "GPT模型irAE-GPT高效识别免疫相关不良事件",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-04-11",
+      "title": "宇树“牵手”阿里官宣出海！人形机器人大幅走强",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-04-11",
+      "title": "多模态大模型HappyHorse或由阿里团队研发",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 9,
+      "date": "2026-04-11",
+      "title": "贝森特召集银行CEO讨论Anthropic新型AI风险",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-04-11",
+      "title": "阿里巴巴领投对AI视频生成公司生数科技的一轮3亿美元融资",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
     {
       "id": 1,
       "date": "2026-04-10",
