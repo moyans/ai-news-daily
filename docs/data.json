@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-12T07:09:12.639428",
-    "total": 182,
-    "today": "2026-04-12"
+    "generated_at": "2026-04-13T07:12:01.122992",
+    "total": 192,
+    "today": "2026-04-13"
   },
   "categories": [
     "AI",
@@ -20,6 +20,7 @@
     "融资"
   ],
   "dates": [
+    "2026-04-13",
     "2026-04-12",
     "2026-04-11",
     "2026-04-10",
@@ -38,6 +39,136 @@
     "2026-03-20"
   ],
   "news": [
+    {
+      "id": 1,
+      "date": "2026-04-13",
+      "title": "苹果测试四款AI眼镜，矩形和椭圆设计，多色，配椭圆镜头摄像系统",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 2,
+      "date": "2026-04-13",
+      "title": "特斯拉受监督版全自动驾驶系统获准在荷兰使用",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-04-13",
+      "title": "谷歌TurboQuant算法或将扩大而非减少内存芯片需求",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-04-13",
+      "title": "智元分拆四足机器人业务",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-04-13",
+      "title": "我国重型地贫防治取得突破性研究成果",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-04-13",
+      "title": "三位启动OpenAI Stargate计划的高管将离职并加入Meta",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-04-13",
+      "title": "Anthropic与OpenClaw博弈，Claude AI账户短暂封禁",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-04-13",
+      "title": "Sam Altman反思袭击事件、OpenAI成功及AI行业言辞策略",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 9,
+      "date": "2026-04-13",
+      "title": "思科洽谈收购Astrix Security，金额约2.5亿至3.5亿美元",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-04-13",
+      "title": "消费端承压、产业端抢货，AI算力重构内存市场",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
     {
       "id": 1,
       "date": "2026-04-12",
