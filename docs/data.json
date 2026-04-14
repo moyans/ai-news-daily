@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-04-14T07:09:37.812252",
-    "total": 202,
-    "today": "2026-04-14"
+    "generated_at": "2026-04-15T07:11:43.165972",
+    "total": 212,
+    "today": "2026-04-15"
   },
   "categories": [
     "AI",
@@ -20,6 +20,7 @@
     "融资"
   ],
   "dates": [
+    "2026-04-15",
     "2026-04-14",
     "2026-04-13",
     "2026-04-12",
@@ -40,6 +41,136 @@
     "2026-03-20"
   ],
   "news": [
+    {
+      "id": 1,
+      "date": "2026-04-15",
+      "title": "Anthropic用AI加速弱到强监督对齐研究，弱模型指导强模型训练",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 2,
+      "date": "2026-04-15",
+      "title": "美国Credo收购以色列DustPhotonics，交易金额达13亿美元",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 3,
+      "date": "2026-04-15",
+      "title": "OpenAI扩大网络安全项目访问，数千名验证网络防御人员可参与",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 4,
+      "date": "2026-04-15",
+      "title": "微软接管挪威Stargate数据中心，原为OpenAI准备",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 5,
+      "date": "2026-04-15",
+      "title": "Sygaldry获1.39亿美元融资，研发量子与经典集成AI服务器",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 6,
+      "date": "2026-04-15",
+      "title": "Anthropic反对OpenAI支持的伊州法案，免除AI实验室重大损害责任",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 7,
+      "date": "2026-04-15",
+      "title": "Fluidstack拟以180亿美元估值募资10亿美元，较2026年增高",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 8,
+      "date": "2026-04-15",
+      "title": "美团、阿里、京东竞逐AI医药服务赛道",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 9,
+      "date": "2026-04-15",
+      "title": "“蓝点触控”完成超亿元C+轮融资",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-04-15",
+      "title": "Uber购买35000辆Lucid电动车并投资2亿美元",
+      "summary": "",
+      "category": "未知",
+      "tags": [],
+      "heat": 0,
+      "source": "huxiu",
+      "url": "",
+      "why": "",
+      "sources": 1
+    },
     {
       "id": 1,
       "date": "2026-04-14",
