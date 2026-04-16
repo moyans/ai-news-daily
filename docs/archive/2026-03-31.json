@@ -4,8 +4,10 @@
     {
       "id": 2,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Elon Musk谈AI未来：视频理解与生成是AGI关键",
-      "summary": "",
+      "summary": "Elon Musk强调AI未来以视频理解和生成为主，因为光子是最高带宽通信形式，xAI的Imagine工具已实现正毛利。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -17,8 +19,10 @@
     {
       "id": 3,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Marc Andreessen：AI是裁员的\"银弹借口\"，实际因疫情超员",
-      "summary": "",
+      "summary": "Andreessen指出许多裁员并非AI替代，而是COVID期间过度招聘导致，AI仅成方便借口。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -30,8 +34,10 @@
     {
       "id": 4,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Microsoft Copilot推出Critique多模型研究系统",
-      "summary": "",
+      "summary": "Microsoft将Copilot Researcher升级为双模型系统（OpenAI起草+Anthropic审计），在DRACO基准上得分57.4，显著提升事实准确性和报告可靠性。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -43,8 +49,10 @@
     {
       "id": 5,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "单人开发者用Claude 7天重构Google新算法，速度提升3.7倍",
-      "summary": "",
+      "summary": "一位独立开发者用Claude重现Google算法，运行35B模型于MacBook并压缩缓存4.6倍，代码已开源发布。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -56,8 +64,10 @@
     {
       "id": 6,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Anthropic新模型\"Claude Mythos\"泄露曝光",
-      "summary": "",
+      "summary": "Anthropic\"Mythos\"新模型被泄露，官方确认早期测试中，在编码、学术推理和网络安全上实现阶跃式提升，是比Opus更强的 compute-intensive 模型。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -69,8 +79,10 @@
     {
       "id": 7,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Nvidia支持的Starcloud融资1.7亿美元，计划太空AI数据中心",
-      "summary": "",
+      "summary": "Starcloud获Nvidia支持，估值11亿美元，将发射88,000颗卫星构建太空AI数据中心网络。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -82,8 +94,10 @@
     {
       "id": 8,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "2026 AI工具趋势：多模型组合实现月入5000美元",
-      "summary": "",
+      "summary": "用户分享用GlobalClaw、GPT-5.4、Gemini 3.1 Pro、Claude 4.6、Sora 2等AI工具组合，无需高成本即可月入5000美元。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -95,8 +109,10 @@
     {
       "id": 9,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "开源记忆引擎Memori获9.2K星，专为LLM和多Agent设计",
-      "summary": "",
+      "summary": "新开源项目Memori支持持久化上下文、多Agent共享记忆，今日新增247星，适合长对话和AI助手系统。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -108,8 +124,10 @@
     {
       "id": 10,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Prompt Master开源项目优化Claude提示词",
-      "summary": "",
+      "summary": "Prompt Master用7步流水线自动优化提示词，内置记忆块防矛盾、检测35种token浪费模式，支持30+工具适配。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -121,8 +139,10 @@
     {
       "id": 11,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "AI模型性能监控平台曝光多款模型\"降智\"",
-      "summary": "",
+      "summary": "AI Stupid Level平台实时监控22款模型，发现Grok-4、Kimi-K2-Turbo等暴跌超35%，提供开源测试方法。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -134,8 +154,10 @@
     {
       "id": 12,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "量化交易开源项目集：多Agent模拟AI基金",
-      "summary": "",
+      "summary": "推荐TauricResearch/TradingAgents（9.3K星）、virattt/ai-hedge-fund（49.6K星）等开源项目，用多Agent角色模拟真实交易决策。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -147,8 +169,10 @@
     {
       "id": 13,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "Stanford开设AI辅助编程课程",
-      "summary": "",
+      "summary": "Stanford推出3学分CS146S课程，系统教授AI辅助代码编写；同时讨论AI智能体在Web3和加密支付中的应用。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -160,8 +184,10 @@
     {
       "id": 14,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "AI日报：Anthropic\"卡皮巴拉\"泄漏、DeepSeek或推V4",
-      "summary": "",
+      "summary": "Anthropic新模型代号泄漏；DeepSeek宕机11小时疑似V4前奏；Kimi K2.5 ARR破亿。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -173,8 +199,10 @@
     {
       "id": 15,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "AI演进日报：普通人用AI制癌症疫苗",
-      "summary": "",
+      "summary": "澳洲工程师用ChatGPT+AlphaFold制定制mRNA疫苗；FlashAttention-4优化Blackwell GPU；就业市场AI淘汰风险高。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -186,8 +214,10 @@
     {
       "id": 16,
       "date": "2026-03-31",
+      "published_at": "",
+      "published_date": "2026-03-31",
       "title": "游戏行业52%从业者认为AI有负面影响",
-      "summary": "",
+      "summary": "游戏开发者大会报告显示，52%从业者视AI为负面；Anthropic Claude 90分钟发现高危漏洞。",
       "category": "未知",
       "tags": [],
       "heat": 0,
@@ -199,8 +229,10 @@
     {
       "id": 3,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 13:22",
+      "published_date": "2026-03-31",
       "title": "新一代豆包AI手机要来了！中兴通讯称正与字节推进相关认证工作: AI 产品正努力改变默认入口",
-      "summary": "中兴通讯在2025年度业绩说明会上披露，公司正与字节跳动等生态伙伴深化合作，共同推进新一代豆包AI手机的研发与落地",
+      "summary": "中兴通讯在2025年度业绩说明会上披露，公司正与字节跳动等生态伙伴深化合作，共同推进新一代豆包AI手机的研发与落地\n> **关键词**: #字节 #产品化 #功能上线\n>\n> **为何值得关注**: 系统级或应用级产品更新通常会改变默认入口和用户习惯，值得持续观察。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10398.html) | **发布时间**: 2026-03-31 13:22",
       "category": "产品",
       "tags": [
         "字节",
@@ -216,8 +248,10 @@
     {
       "id": 4,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 10:40",
+      "published_date": "2026-03-31",
       "title": "AI编码代理将改变漏洞开发，自动发现零日漏洞: AI 正在更直接地改变消费和工作流程",
-      "summary": "AI编码代理在自动化漏洞发现和网络攻击中展现出前所未有的威力",
+      "summary": "AI编码代理在自动化漏洞发现和网络攻击中展现出前所未有的威力\n> **关键词**: #应用落地 #真实场景 #商业化\n>\n> **为何值得关注**: AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。 这条消息来自 4 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 4 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10390.html) | **发布时间**: 2026-03-31 10:40",
       "category": "应用",
       "tags": [
         "应用落地",
@@ -233,8 +267,10 @@
     {
       "id": 5,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 08:20",
+      "published_date": "2026-03-31",
       "title": "AI新模型解读心脏MRI数据媲美专家: 大模型竞争继续向生态和落地延伸",
-      "summary": "人工智能在心脏MRI数据解读领域取得重大进展",
+      "summary": "人工智能在心脏MRI数据解读领域取得重大进展\n> **关键词**: #大模型 #训练 #推理\n>\n> **为何值得关注**: 大模型竞争已经不只看单点指标，还要看生态、工具链和场景落地。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10382.html) | **发布时间**: 2026-03-31 08:20",
       "category": "模型",
       "tags": [
         "大模型",
@@ -250,8 +286,10 @@
     {
       "id": 6,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 08:20",
+      "published_date": "2026-03-31",
       "title": "科技公司大力布局AI工厂和企业智能体: AI 正从问答工具转向执行工具",
-      "summary": "AI正从训练阶段全面进入推理与执行阶段，中外科技企业加速布局AI工厂和企业智能体",
+      "summary": "AI正从训练阶段全面进入推理与执行阶段，中外科技企业加速布局AI工厂和企业智能体\n> **关键词**: #智能体 #任务执行 #工作流\n>\n> **为何值得关注**: 智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。\n>\n> **互动指标**: 来源数 1 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10381.html) | **发布时间**: 2026-03-31 08:20",
       "category": "智能体",
       "tags": [
         "智能体",
@@ -267,8 +305,10 @@
     {
       "id": 7,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 08:00",
+      "published_date": "2026-03-31",
       "title": "韩国AI芯片初创公司Rebellions额外筹集4亿美元: 算力和芯片供给仍是行业上限",
-      "summary": "韩国AI芯片初创公司Rebellions在完成C轮融资后，再额外筹集4亿美元资金，估值达23.4亿美元",
+      "summary": "韩国AI芯片初创公司Rebellions在完成C轮融资后，再额外筹集4亿美元资金，估值达23.4亿美元\n> **关键词**: #芯片 #融资 #算力\n>\n> **为何值得关注**: 算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 2 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10380.html) | **发布时间**: 2026-03-31 08:00",
       "category": "芯片",
       "tags": [
         "芯片",
@@ -284,8 +324,10 @@
     {
       "id": 8,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 07:40",
+      "published_date": "2026-03-31",
       "title": "微软公布变革性多模型AI战略，预示人工智能领域重大飞跃: AI 正从问答工具转向执行工具",
-      "summary": "微软于本周一为其Copilot助手推出了Critique和Council两项突破性多模型AI功能，这标志着微软在AI领域的重大战略转变",
+      "summary": "微软于本周一为其Copilot助手推出了Critique和Council两项突破性多模型AI功能，这标志着微软在AI领域的重大战略转变\n> **关键词**: #Copilot #微软 #任务执行\n>\n> **为何值得关注**: 智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 5 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 5 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10379.html) | **发布时间**: 2026-03-31 07:40",
       "category": "智能体",
       "tags": [
         "Copilot",
@@ -301,8 +343,10 @@
     {
       "id": 9,
       "date": "2026-03-31",
+      "published_at": "2026-03-31 07:30",
+      "published_date": "2026-03-31",
       "title": "曦智科技向港交所递交上市申请: AI 正在更直接地改变消费和工作流程",
-      "summary": "上海曦智科技股份有限公司近日向港交所提交上市申请书，联席保荐人为中金公司和国泰海通",
+      "summary": "上海曦智科技股份有限公司近日向港交所提交上市申请书，联席保荐人为中金公司和国泰海通\n> **关键词**: #应用落地 #真实场景 #商业化\n>\n> **为何值得关注**: AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。\n>\n> **互动指标**: 来源数 1 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10378.html) | **发布时间**: 2026-03-31 07:30",
       "category": "应用",
       "tags": [
         "应用落地",
@@ -313,6 +357,63 @@
       "source": "huxiu",
       "url": "https://www.huxiu.com/ainews/10378.html",
       "why": "AI 应用能否真正进入高频场景，决定它是否只是概念还是可规模化产品。\n>\n> **互动指标**: 来源数 1 | 收藏数 0 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10378.html) | **发布时间**: 2026-03-31 07:30",
+      "sources": 1
+    },
+    {
+      "id": 10,
+      "date": "2026-03-31",
+      "published_at": "2026-03-30 22:40",
+      "published_date": "2026-03-30",
+      "title": "ScaleOps获1.3亿美元C轮融资，估值超8亿美元: 资本正在重新定价 AI 赛道",
+      "summary": "ScaleOps宣布完成1.3亿美元C轮融资，估值达8亿美元，由Insight Partners领投\n> **关键词**: #融资 #估值 #并购\n>\n> **为何值得关注**: 融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10372.html) | **发布时间**: 2026-03-30 22:40",
+      "category": "融资",
+      "tags": [
+        "融资",
+        "估值",
+        "并购"
+      ],
+      "heat": 132,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10372.html",
+      "why": "融资、收购和估值变化往往反映资本对赛道的重新判断。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10372.html) | **发布时间**: 2026-03-30 22:40",
+      "sources": 1
+    },
+    {
+      "id": 11,
+      "date": "2026-03-31",
+      "published_at": "2026-03-30 18:10",
+      "published_date": "2026-03-30",
+      "title": "微软将打造100%原生Win11应用: AI 正从问答工具转向执行工具",
+      "summary": "微软于2026年3月28日宣布组建全新产品团队，致力于为Windows 11开发100%原生应用，目标是完全取代目前广泛使用的网页套壳模式，如Clipchamp和Copilot等应用，标志着公司在系统优化和技术革新方面迈出重大步伐\n> **关键词**: #Copilot #微软 #任务执行\n>\n> **为何值得关注**: 智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10361.html) | **发布时间**: 2026-03-30 18:10",
+      "category": "智能体",
+      "tags": [
+        "Copilot",
+        "微软",
+        "任务执行"
+      ],
+      "heat": 331,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10361.html",
+      "why": "智能体一旦能稳定执行任务，就会把 AI 从聊天工具推进到生产力工具。 这条消息来自 3 个来源交叉佐证，行业关注度较高。\n>\n> **互动指标**: 来源数 3 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10361.html) | **发布时间**: 2026-03-30 18:10",
+      "sources": 3
+    },
+    {
+      "id": 12,
+      "date": "2026-03-31",
+      "published_at": "2026-03-30 15:40",
+      "published_date": "2026-03-30",
+      "title": "Mistral AI获8.3亿美元债务融资，支持AI数据中心建设: 算力和芯片供给仍是行业上限",
+      "summary": "法国AI初创公司Mistral为扩建人工智能数据中心筹集8.3亿美元债务融资，进一步扩大其基础设施投资规模\n> **关键词**: #融资 #算力 #供应链\n>\n> **为何值得关注**: 算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10356.html) | **发布时间**: 2026-03-30 15:40\n\n*由 huxiu-ai-news Skill 自动生成，生成时间: 2026-03-31 16:22:26*",
+      "category": "芯片",
+      "tags": [
+        "融资",
+        "算力",
+        "供应链"
+      ],
+      "heat": 130,
+      "source": "huxiu",
+      "url": "https://www.huxiu.com/ainews/10356.html",
+      "why": "算力与芯片决定模型训练和推理上限，也会影响行业成本曲线。\n>\n> **互动指标**: 来源数 1 | 收藏数 1 | 评论数 0\n> **原文链接**: [虎嗅原文](https://www.huxiu.com/ainews/10356.html) | **发布时间**: 2026-03-30 15:40",
       "sources": 1
     }
   ]

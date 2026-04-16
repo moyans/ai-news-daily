@@ -10,6 +10,69 @@ from pathlib import Path
 from datetime import datetime
 
 
+SUMMARY_LABELS = (
+    "一句话总结",
+    "核心速递",
+    "摘要",
+)
+
+METADATA_PREFIXES = (
+    "#",
+    ">",
+    "---",
+    "**一句话总结**",
+    "**核心速递**",
+    "**摘要**",
+    "**时间**",
+    "**发布时间**",
+    "**分类**",
+    "**作者**",
+    "**热度分**",
+    "**原文链接**",
+    "**互动指标**",
+    "**关键词**",
+    "**为何值得关注**",
+    "*由",
+)
+
+
+def extract_label_value(block: str, label: str) -> str:
+    pattern = rf'\*\*{re.escape(label)}\*\*[:：]\s*(.+?)(?=\n\*\*|\n---|\Z)'
+    match = re.search(pattern, block, re.DOTALL)
+    if not match:
+        return ""
+    value = match.group(1).strip()
+    return value
+
+
+def extract_first_paragraph(block: str) -> str:
+    lines = []
+    for raw_line in block.splitlines():
+        line = raw_line.strip()
+        if not line:
+            if lines:
+                break
+            continue
+
+        if line.startswith(METADATA_PREFIXES):
+            if lines:
+                break
+            continue
+
+        lines.append(line)
+
+    return " ".join(lines).strip()
+
+
+def extract_summary(block: str) -> str:
+    for label in SUMMARY_LABELS:
+        summary = extract_label_value(block, label)
+        if summary:
+            return summary
+
+    return extract_first_paragraph(block)
+
+
 def parse_markdown(content: str, source: str, date: str) -> list[dict]:
     news_list = []
     blocks = re.split(r'^---$', content, flags=re.MULTILINE)
@@ -31,37 +94,39 @@ def parse_news_block(block: str, rank: int, source: str, date: str) -> dict | No
         if not title_match:
             return None
         title = title_match.group(1).strip()
-        
+
         category_match = re.search(r'\*\*分类\*\*:\s*#(\S+)', block)
         category = category_match.group(1) if category_match else "未知"
-        
+
         heat_match = re.search(r'\*\*热度分\*\*:\s*([\d,]+)', block)
         heat_str = heat_match.group(1).replace(',', '') if heat_match else '0'
         heat = int(heat_str)
-        
-        summary_match = re.search(r'\*\*一句话总结\*\*:\s*(.+?)(?:\n|$)', block)
-        summary = summary_match.group(1).strip() if summary_match else ""
-        
+
+        summary = extract_summary(block)
+
         keywords_match = re.search(r'\*\*关键词\*\*:\s*(.+?)(?:\n|$)', block)
         keywords = []
         if keywords_match:
             keywords = [k.strip().lstrip('#') for k in keywords_match.group(1).split('#') if k.strip()]
-        
+
         why_match = re.search(r'\*\*为何值得关注\*\*:\s*(.+?)(?:\n\n|\n\*\*|$)', block, re.DOTALL)
         why = why_match.group(1).strip() if why_match else ""
-        
+
         url_match = re.search(r'\*\*原文链接\*\*:\s*\[.+?\]\((https?://[^\)]+)\)', block)
         url = url_match.group(1) if url_match else ""
-        
-        time_match = re.search(r'\*\*发布时间\*\*:\s*(\d{4}-\d{2}-\d{2})', block)
-        pub_date = time_match.group(1) if time_match else date
-        
+
+        time_match = re.search(r'\*\*(?:发布时间|时间)\*\*[:：]\s*(.+?)(?:\n|$)', block)
+        published_at = time_match.group(1).strip() if time_match else ""
+        published_date = published_at[:10] if re.match(r'^\d{4}-\d{2}-\d{2}', published_at) else date
+
         sources_match = re.search(r'来自\s*(\d+)\s*个来源', block)
         sources = int(sources_match.group(1)) if sources_match else 1
-        
+
         return {
             "id": rank,
-            "date": pub_date,
+            "date": date,
+            "published_at": published_at,
+            "published_date": published_date,
             "title": title,
             "summary": summary,
             "category": category,

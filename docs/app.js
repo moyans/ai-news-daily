@@ -102,9 +102,10 @@ function renderNews() {
     if (searchQuery) {
         const q = searchQuery.toLowerCase();
         filtered = filtered.filter(n => 
-            n.title.toLowerCase().includes(q) ||
-            n.summary.toLowerCase().includes(q) ||
-            n.tags.some(t => t.toLowerCase().includes(q))
+            (n.title || '').toLowerCase().includes(q) ||
+            (n.summary || '').toLowerCase().includes(q) ||
+            (n.why || '').toLowerCase().includes(q) ||
+            (Array.isArray(n.tags) ? n.tags : []).some(t => t.toLowerCase().includes(q))
         );
     }
     
@@ -116,16 +117,16 @@ function renderNews() {
     container.innerHTML = filtered.map(news => `
         <article class="news-card">
             <div class="news-meta">
-                <span class="news-date">${news.date}</span>
+                <span class="news-date">${news.published_at ? news.published_at.slice(0, 16).replace('T', ' ') : news.date}</span>
                 <span class="news-category">${news.category}</span>
                 <span class="news-heat">热度 ${news.heat.toLocaleString()}</span>
             </div>
             <h2 class="news-title">
                 <a href="${news.url}" target="_blank" rel="noopener">${escapeHtml(news.title)}</a>
             </h2>
-            <p class="news-summary">${escapeHtml(news.summary)}</p>
+            <p class="news-summary">${escapeHtml((news.summary || news.why || '').trim())}</p>
             <div class="news-tags">
-                ${news.tags.map(tag => `<span class="tag" onclick="filterByTag('${escapeHtml(tag)}')">${escapeHtml(tag)}</span>`).join('')}
+                ${(Array.isArray(news.tags) ? news.tags : []).map(tag => `<span class="tag" onclick="filterByTag('${escapeHtml(tag)}')">${escapeHtml(tag)}</span>`).join('')}
             </div>
         </article>
     `).join('');
