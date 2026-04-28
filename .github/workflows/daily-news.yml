@@ -1,0 +1,60 @@
+name: Daily AI News
+
+on:
+  schedule:
+    - cron: "0 23 * * *" # UTC 23:00 = CST 07:00
+  workflow_dispatch:
+
+jobs:
+  fetch-huxiu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Huxiu AI News
+        run: python3 .opencode/skills/huxiu-ai-news/scripts/fetch_huxiu_ai_news.py --limit 10 --git-push
+        env:
+          AI_NEWS_DAILY_DATA_DIR: ./data
+
+  fetch-x-topics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch X Hot Topics
+        run: echo "X topics fetching - to be configured with X API or Playwright headless"
+        # TODO: Configure X topics fetching for CI environment
+        # The x-hot-topics-daily skill currently uses browser automation
+        # which requires Playwright headless setup in CI
+
+  build-verify:
+    needs: [fetch-huxiu, fetch-x-topics]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test
