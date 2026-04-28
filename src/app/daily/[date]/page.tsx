@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { getDailyData, getAvailableDates } from "@/lib/data";
 import { SourceFilter } from "@/lib/types";
 import NewsCard from "@/components/NewsCard";
@@ -71,14 +72,13 @@ export default async function DailyPage({
         </p>
       </header>
 
-      <SourceTabs
-        active={activeFilter}
-        onChange={(filter) => {
-          const params = filter === "all" ? "" : `?source=${filter}`;
-          window.location.href = `/daily/${date}${params}`;
-        }}
-        counts={{ huxiu: data.huxiu.length, x: data.xTopics.length }}
-      />
+      <Suspense fallback={<div className="flex gap-2 mb-6"><div className="px-4 py-2 rounded-lg bg-card text-muted text-sm">...</div><div className="px-4 py-2 rounded-lg bg-card text-muted text-sm">...</div><div className="px-4 py-2 rounded-lg bg-card text-muted text-sm">...</div></div>}>
+        <SourceTabs
+          active={activeFilter}
+          date={date}
+          counts={{ huxiu: data.huxiu.length, x: data.xTopics.length }}
+        />
+      </Suspense>
 
       <div className="space-y-4">
         {allItems.length > 0 ? (

@@ -29,6 +29,11 @@ export default function NewsCard({ item }: { item: NewsItem }) {
             <span className="text-xs text-muted">
               {CATEGORY_LABELS[item.category] || item.category}
             </span>
+            {item.tags && item.tags.length > 0 && (
+              <span className="text-xs text-muted/60">
+                {item.tags.slice(0, 3).join(" · ")}
+              </span>
+            )}
           </div>
           <h3 className="text-base font-semibold text-foreground leading-snug mb-2 group-hover:text-accent transition-colors">
             {item.title}

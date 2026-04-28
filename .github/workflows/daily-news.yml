@@ -23,19 +23,17 @@ jobs:
 
   fetch-x-topics:
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
       - name: Fetch X Hot Topics
-        run: echo "X topics fetching - to be configured with X API or Playwright headless"
-        # TODO: Configure X topics fetching for CI environment
-        # The x-hot-topics-daily skill currently uses browser automation
-        # which requires Playwright headless setup in CI
+        run: echo "X topics fetching requires browser automation (Playwright) - not yet available in CI. See .opencode/skills/x-hot-topics-daily/SKILL.md for manual fetch instructions."
+        # TODO: Implement X topics fetching via Playwright headless or X API v2
+        # Current blocker: X topics skill uses browser automation which needs
+        # authenticated browser session. Options:
+        # 1. Use X API v2 with API key (requires developer account)
+        # 2. Set up Playwright with stored cookies in CI secrets
 
   build-verify:
     needs: [fetch-huxiu, fetch-x-topics]

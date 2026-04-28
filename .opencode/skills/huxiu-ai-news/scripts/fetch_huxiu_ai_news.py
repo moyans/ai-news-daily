@@ -402,6 +402,10 @@ def get_default_output_dir() -> Path:
     cwd = get_execution_dir()
     if cwd.name == "ai-news-daily":
         return cwd / "data"
+    script_dir = Path(__file__).resolve().parent
+    project_root = script_dir.parent.parent.parent
+    if (project_root / "data").is_dir() and (project_root / "package.json").exists():
+        return project_root / "data"
     return Path.home() / "Documents" / "sunchao251" / "code" / "ai-news-daily" / "data"
 
 

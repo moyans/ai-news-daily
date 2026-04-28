@@ -6,6 +6,9 @@ import { parseXTopicsMarkdown } from "./parse-x-topics";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
+const dailyDataCache = new Map<string, { data: DailyData | null; ts: number }>();
+const CACHE_TTL = 5 * 60 * 1000;
+
 export function getAvailableDates(): string[] {
   if (!fs.existsSync(DATA_DIR)) return [];
 
@@ -23,6 +26,17 @@ export function getLatestDate(): string | null {
 }
 
 export function getDailyData(date: string): DailyData | null {
+  const cached = dailyDataCache.get(date);
+  if (cached && Date.now() - cached.ts < CACHE_TTL) {
+    return cached.data;
+  }
+
+  const result = getDailyDataFromDisk(date);
+  dailyDataCache.set(date, { data: result, ts: Date.now() });
+  return result;
+}
+
+function getDailyDataFromDisk(date: string): DailyData | null {
   const huxiuPath = path.join(DATA_DIR, date, "huxiu", "content.md");
   const xPath = path.join(DATA_DIR, date, "x-hot-topics", "content.md");
 
@@ -51,4 +65,9 @@ export function getAllDailyData(): DailyData[] {
   return getAvailableDates()
     .map((date) => getDailyData(date))
     .filter((d): d is DailyData => d !== null);
+}
+
+export function getDailyItemCount(date: string): number {
+  const data = getDailyData(date);
+  return data ? data.huxiu.length + data.xTopics.length : 0;
 }

@@ -1,4 +1,5 @@
 # X 热点追踪 (2026-04-28)
+<!-- SEED_DATA: 此文件为示例种子数据，非真实抓取结果。由 x-hot-topics-daily skill 生成后将替换为真实数据。 -->
 
 ## 1. Sam Altman：GPT-5 是通向 AGI 的关键一步
 
