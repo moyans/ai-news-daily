@@ -1,0 +1,4 @@
+interface:
+  display_name: "虎嗅AI科技新闻"
+  short_description: "抓取虎嗅AI频道Top10并生成Markdown"
+  default_prompt: "使用 $huxiu-ai-news 抓取虎嗅 AI 科技频道 Top10；优先用 --format json 让执行 skill 的大模型生成更自然的一句话总结和最终 Markdown；转 Markdown 时优先保留完整子句，普通新闻把一句话总结控制在 60-100 个汉字，模型发布类控制在 90-140 个汉字，尽量不要以省略号结尾；最终 Markdown 版式对齐 x-ai-trends 的日报结构，但字段使用虎嗅可用的数据；可通过 --limit、--output-dir 和 --filename-template 配置数量与保存路径；脚本会优先读取 AI_NEWS_DAILY_DATA_DIR，否则自动在当前工作区发现可用的数据目录，不要依赖固定绝对路径。"
