@@ -1,4 +1,4 @@
-import { getAvailableDates, getDailyItemCount } from "@/lib/data";
+import { getAvailableDates, getDailyData } from "@/lib/data";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 
@@ -43,7 +43,9 @@ export default function ArchivePage() {
           <h2 className="text-lg font-semibold mb-3">{formatMonth(month)}</h2>
           <div className="space-y-2">
             {monthDates.map((date) => {
-              const count = getDailyItemCount(date);
+              const data = getDailyData(date);
+              const huxiuCount = data ? data.huxiu.length : 0;
+              const xCount = data ? data.xTopics.length : 0;
               return (
                 <Link
                   key={date}
@@ -52,7 +54,11 @@ export default function ArchivePage() {
                 >
                   <div className="flex items-center justify-between">
                     <span className="font-medium">{formatDate(date)}</span>
-                    <span className="text-sm text-muted">{count} \u6761\u65B0\u95FB</span>
+                    <span className="text-sm text-muted">
+                      {huxiuCount > 0 && <span className="text-huxiu">\u864E\u55C3 {huxiuCount}</span>}
+                      {huxiuCount > 0 && xCount > 0 && " \u00B7 "}
+                      {xCount > 0 && <span className="text-x">X {xCount}</span>}
+                    </span>
                   </div>
                 </Link>
               );

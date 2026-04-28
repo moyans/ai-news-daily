@@ -21,8 +21,11 @@ export interface NewsItem {
     views?: number;
     likes?: number;
     shares?: number;
+    heatScore?: number;
+    sourceCount?: number;
   };
   tags?: string[];
+  whyItMatters?: string;
 }
 
 export interface DailyData {

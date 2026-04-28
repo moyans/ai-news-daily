@@ -200,5 +200,45 @@ describe("parseHuxiuMarkdown", () => {
       const result = parseHuxiuMarkdown("", "2026-04-28");
       expect(result).toEqual([]);
     });
+
+    it("does not truncate Chinese colon in titles that are not core value suffixes", () => {
+      const md = `## [Top 1] 小马智行CEO彭军：现有自动驾驶分级体系不合理
+
+> **分类**: #机器人 | **作者**: 虎嗅网 | **热度分**: 437
+> **一句话总结**: 小马智行CEO彭军质疑L3自动驾驶的存在必要性。
+> **关键词**: #具身智能
+>
+> **为何值得关注**: 自动驾驶技术分级体系争议。
+>
+> **互动指标**: 来源数 2 | 收藏数 0 | 评论数 0
+> **原文链接**: [虎嗅原文](https://www.huxiu.com/article/123.html) | **发布时间**: 2026-04-28 10:00
+
+---`;
+      const result = parseHuxiuMarkdown(md, "2026-04-28");
+      expect(result[0].title).toContain("彭军：现有自动驾驶分级体系不合理");
+    });
+
+    it("strips only recognized core value suffix after colon", () => {
+      const md = `## [Top 1] 天猫618将于5月21日开启：AI 正在更直接地改变消费和工作流程
+
+> **分类**: #应用 | **热度分**: 219
+> **一句话总结**: 天猫大促将于5月21日开启预售。
+
+---`;
+      const result = parseHuxiuMarkdown(md, "2026-04-28");
+      expect(result[0].title).toBe("天猫618将于5月21日开启");
+    });
+
+    it("extracts whyItMatters field", () => {
+      const result = parseHuxiuMarkdown(SAMPLE_HUXIU_SCRIPT, "2026-04-28");
+      expect(result[0].whyItMatters).toContain("AI 应用能否真正进入高频场景");
+    });
+
+    it("extracts heatScore and sourceCount from metrics", () => {
+      const result = parseHuxiuMarkdown(SAMPLE_HUXIU_SCRIPT, "2026-04-28");
+      expect(result[0].metrics).toBeDefined();
+      expect(result[0].metrics!.heatScore).toBe(219);
+      expect(result[0].metrics!.sourceCount).toBe(2);
+    });
   });
 });

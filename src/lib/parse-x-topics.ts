@@ -76,7 +76,7 @@ export function parseXTopicsMarkdown(content: string, date: string): NewsItem[] 
     const summaryLines: string[] = [];
     for (const line of lines) {
       const trimmed = line.trim();
-      if (trimmed.startsWith("##") || trimmed.startsWith("# ") || trimmed.startsWith("- ") || trimmed === "---") {
+      if (trimmed.startsWith("##") || trimmed.startsWith("# ") || trimmed.startsWith("- ") || trimmed.startsWith("<!--") || trimmed === "---") {
         continue;
       }
       if (trimmed) {

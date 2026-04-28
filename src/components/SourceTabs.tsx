@@ -41,7 +41,7 @@ export default function SourceTabs({
           onClick={() => handleChange(tab.key)}
           className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
             active === tab.key
-              ? "bg-accent text-white"
+              ? "bg-accent text-white shadow-sm shadow-accent/30"
               : "bg-card text-muted hover:text-foreground hover:bg-card-hover"
           }`}
         >

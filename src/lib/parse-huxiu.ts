@@ -80,6 +80,29 @@ function parseMetricsFromBlock(text: string): ParsedMetrics {
  * > **互动指标**: 来源数 2 | 收藏数 0 | 评论数 0
  * > **原文链接**: [虎嗅原文](url) | **发布时间**: 2026-04-28 17:50
  */
+const CORE_VALUE_SUFFIXES = [
+  "AI 监管开始从讨论走向执行",
+  "算力和芯片供给仍是行业上限",
+  "具身智能正在加速进入真实场景",
+  "AI 正从问答工具转向执行工具",
+  "大模型竞争继续向生态和落地延伸",
+  "AI 产品正努力改变默认入口",
+  "资本正在重新定价 AI 赛道",
+  "AI 正在更直接地改变消费和工作流程",
+];
+
+function stripCoreValueSuffix(title: string): string {
+  for (const suffix of CORE_VALUE_SUFFIXES) {
+    if (title.endsWith(suffix)) {
+      const idx = title.lastIndexOf(": " + suffix);
+      if (idx > 0) return title.substring(0, idx).trim();
+      const cnIdx = title.lastIndexOf("：" + suffix);
+      if (cnIdx > 0) return title.substring(0, cnIdx).trim();
+    }
+  }
+  return title;
+}
+
 export function parseHuxiuMarkdown(content: string, date: string): NewsItem[] {
   const items: NewsItem[] = [];
 
@@ -91,19 +114,7 @@ export function parseHuxiuMarkdown(content: string, date: string): NewsItem[] {
 
     const titleMatch = section.match(/##\s*\[Top\s+\d+\]\s+(.+)/);
     if (!titleMatch) continue;
-    let title = titleMatch[1].trim();
-    const colonIndex = title.indexOf("：");
-    if (colonIndex === -1) {
-      const asciiColon = title.indexOf(": ");
-      if (asciiColon > 0) {
-        title = title.substring(0, asciiColon).trim();
-      }
-    } else {
-      const before = title.substring(0, colonIndex).trim();
-      if (before.length >= 4 && before.length <= 60) {
-        title = before;
-      }
-    }
+    const title = stripCoreValueSuffix(titleMatch[1].trim());
 
     const categoryMatch = section.match(/\*\*分类\*\*[：:]\s*([^|*\n]+)/);
     const category = categoryMatch
@@ -130,7 +141,7 @@ export function parseHuxiuMarkdown(content: string, date: string): NewsItem[] {
         if (inBlockquote && !trimmed.startsWith(">") && trimmed !== "") {
           pastBlockquote = true;
         }
-        if (pastBlockquote && trimmed !== "" && !trimmed.startsWith("##") && !trimmed.startsWith("---") && !trimmed.startsWith("*由")) {
+        if (pastBlockquote && trimmed !== "" && !trimmed.startsWith("##") && !trimmed.startsWith("---") && !trimmed.startsWith("*由") && !trimmed.startsWith("<!--")) {
           summaryLines.push(trimmed);
         }
       }
@@ -139,7 +150,9 @@ export function parseHuxiuMarkdown(content: string, date: string): NewsItem[] {
       }
     }
 
-    // Tags: **关键词**: #kw1 #kw2 #kw3
+    const whyItMattersMatch = section.match(/\*\*为何值得关注\*\*[：:]\s*(.+)/);
+    const whyItMatters = whyItMattersMatch ? whyItMattersMatch[1].trim() : undefined;
+
     const tagsMatch = section.match(/\*\*关键词\*\*[：:]\s*(.+)/);
     let tags: string[] = [];
     if (tagsMatch) {
@@ -152,14 +165,12 @@ export function parseHuxiuMarkdown(content: string, date: string): NewsItem[] {
       tags = extractTagsFromCategory(categoryMatch ? categoryMatch[1].trim() : "");
     }
 
-    // Published time: **发布时间**: 2026-04-28 17:50
     const timeMatch = section.match(/\*\*发布时间\*\*[：:]\s*(\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2})/);
     const publishedAt = timeMatch
       ? `${timeMatch[1].replace(" ", "T")}+08:00`
       : `${date}T00:00:00+08:00`;
 
-    // Metrics
-    const metrics = parseMetricsFromBlock(section);
+    const parsedMetrics = parseMetricsFromBlock(section);
 
     const index = items.length;
     items.push({
@@ -171,11 +182,14 @@ export function parseHuxiuMarkdown(content: string, date: string): NewsItem[] {
       publishedAt,
       category,
       tags: tags.length > 0 ? tags : undefined,
-      metrics: metrics.sourceCount !== undefined
+      whyItMatters,
+      metrics: parsedMetrics.heatScore !== undefined
         ? {
-            views: metrics.heatScore,
-            likes: metrics.favorites,
-            shares: metrics.comments,
+            views: parsedMetrics.heatScore,
+            likes: parsedMetrics.favorites,
+            shares: parsedMetrics.comments,
+            heatScore: parsedMetrics.heatScore,
+            sourceCount: parsedMetrics.sourceCount,
           }
         : undefined,
     });
