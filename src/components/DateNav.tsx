@@ -11,7 +11,7 @@ export default function DateNav({
 }) {
   const formatDate = (dateStr: string) => {
     const [y, m, d] = dateStr.split("-");
-    return `${y}\u5E74${parseInt(m)}\u6708${parseInt(d)}\u65E5`;
+    return `${y}年${parseInt(m)}月${parseInt(d)}日`;
   };
 
   return (

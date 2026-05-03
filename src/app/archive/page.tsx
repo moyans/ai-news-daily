@@ -3,8 +3,8 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "\u5F52\u6863 \u00B7 AI News Daily",
-  description: "\u6D4F\u89C8\u6240\u6709\u5386\u53F2\u65E5\u62A5",
+  title: "归档 · AI News Daily",
+  description: "浏览所有历史日报",
 };
 
 export default function ArchivePage() {
@@ -19,12 +19,12 @@ export default function ArchivePage() {
 
   const formatDate = (dateStr: string) => {
     const [, m, d] = dateStr.split("-");
-    return `${parseInt(m)}\u6708${parseInt(d)}\u65E5`;
+    return `${parseInt(m)}月${parseInt(d)}日`;
   };
 
   const formatMonth = (monthStr: string) => {
     const [y, m] = monthStr.split("-");
-    return `${y}\u5E74${parseInt(m)}\u6708`;
+    return `${y}年${parseInt(m)}月`;
   };
 
   return (
@@ -35,7 +35,7 @@ export default function ArchivePage() {
             AI News Daily
           </Link>
         </h1>
-        <p className="text-sm text-muted mt-1">\u5F52\u6863</p>
+        <p className="text-sm text-muted mt-1">归档</p>
       </header>
 
       {Object.entries(grouped).map(([month, monthDates]) => (
@@ -55,8 +55,8 @@ export default function ArchivePage() {
                   <div className="flex items-center justify-between">
                     <span className="font-medium">{formatDate(date)}</span>
                     <span className="text-sm text-muted">
-                      {huxiuCount > 0 && <span className="text-huxiu">\u864E\u55C3 {huxiuCount}</span>}
-                      {huxiuCount > 0 && xCount > 0 && " \u00B7 "}
+                      {huxiuCount > 0 && <span className="text-huxiu">虎嗅 {huxiuCount}</span>}
+                      {huxiuCount > 0 && xCount > 0 && " · "}
                       {xCount > 0 && <span className="text-x">X {xCount}</span>}
                     </span>
                   </div>
@@ -68,7 +68,7 @@ export default function ArchivePage() {
       ))}
 
       {dates.length === 0 && (
-        <p className="text-center text-muted py-12">\u6682\u65E0\u5F52\u6863\u6570\u636E</p>
+        <p className="text-center text-muted py-12">暂无归档数据</p>
       )}
 
       <Footer />

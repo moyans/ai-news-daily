@@ -4,8 +4,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { SourceFilter } from "@/lib/types";
 
 const TABS: { key: SourceFilter; label: string }[] = [
-  { key: "all", label: "\u5168\u90E8" },
-  { key: "huxiu", label: "\u864E\u55C3" },
+  { key: "all", label: "全部" },
+  { key: "huxiu", label: "虎嗅" },
   { key: "x", label: "X" },
 ];
 

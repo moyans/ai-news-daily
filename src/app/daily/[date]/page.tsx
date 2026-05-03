@@ -19,8 +19,8 @@ export async function generateMetadata({
 }) {
   const { date } = await params;
   return {
-    title: `AI News Daily \u00B7 ${date}`,
-    description: `${date} AI \u65B0\u95FB\u65E5\u62A5\uFF0C\u6765\u81EA\u864E\u55C3\u548C X.com`,
+    title: `AI News Daily · ${date}`,
+    description: `${date} AI 新闻日报，来自虎嗅和 X.com`,
   };
 }
 
@@ -68,7 +68,7 @@ export default async function DailyPage({
           </a>
         </h1>
         <p className="text-sm text-muted mt-1">
-          \u6BCF\u65E5 AI \u65B0\u95FB\u805A\u5408 \u00B7 \u9762\u5411\u5F00\u53D1\u8005
+          每日 AI 新闻聚合 · 面向开发者
         </p>
       </header>
 
@@ -85,7 +85,7 @@ export default async function DailyPage({
           allItems.map((item) => <NewsCard key={item.id} item={item} />)
         ) : (
           <p className="text-center text-muted py-12">
-            \u6682\u65E0\u8BE5\u6765\u6E90\u7684\u65B0\u95FB\u6570\u636E
+            暂无该来源的新闻数据
           </p>
         )}
       </div>

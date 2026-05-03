@@ -1,18 +1,18 @@
 import { NewsItem } from "@/lib/types";
 
 const SOURCE_CONFIG: Record<string, { name: string; color: string; bg: string }> = {
-  huxiu: { name: "\u864E\u55C3", color: "text-huxiu", bg: "bg-huxiu/10" },
+  huxiu: { name: "虎嗅", color: "text-huxiu", bg: "bg-huxiu/10" },
   x: { name: "X", color: "text-x", bg: "bg-x/10" },
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
-  model: "\u6A21\u578B",
-  product: "\u4EA7\u54C1",
-  funding: "\u878D\u8D44",
-  research: "\u7814\u7A76",
-  policy: "\u653F\u7B56",
-  opinion: "\u89C2\u70B9",
-  tools: "\u5DE5\u5177",
+  model: "模型",
+  product: "产品",
+  funding: "融资",
+  research: "研究",
+  policy: "政策",
+  opinion: "观点",
+  tools: "工具",
 };
 
 function formatRelativeTime(isoString: string): string {
@@ -25,7 +25,7 @@ function formatRelativeTime(isoString: string): string {
     return `${date.getHours().toString().padStart(2, "0")}:${date.getMinutes().toString().padStart(2, "0")}`;
   }
   if (diffHours < 48) {
-    return `\u6628\u5929 ${date.getHours().toString().padStart(2, "0")}:${date.getMinutes().toString().padStart(2, "0")}`;
+    return `昨天 ${date.getHours().toString().padStart(2, "0")}:${date.getMinutes().toString().padStart(2, "0")}`;
   }
   return `${(date.getMonth() + 1).toString().padStart(2, "0")}-${date.getDate().toString().padStart(2, "0")} ${date.getHours().toString().padStart(2, "0")}:${date.getMinutes().toString().padStart(2, "0")}`;
 }
@@ -35,7 +35,7 @@ function formatCount(n: number | undefined, unit: string): string | null {
   if (n >= 10000) {
     const wan = n / 10000;
     const wanStr = wan === Math.floor(wan) ? wan.toFixed(0) : wan.toFixed(1);
-    return `${wanStr}\u4E07${unit}`;
+    return `${wanStr}万${unit}`;
   }
   return `${n.toLocaleString()}${unit}`;
 }
@@ -45,17 +45,17 @@ export default function NewsCard({ item }: { item: NewsItem }) {
 
   const metricsElements: string[] = [];
   if (item.source === "huxiu" && item.metrics?.heatScore !== undefined) {
-    metricsElements.push(`\u70ED\u5EA6 ${item.metrics.heatScore}`);
+    metricsElements.push(`热度 ${item.metrics.heatScore}`);
     if (item.metrics.sourceCount !== undefined && item.metrics.sourceCount > 0) {
-      metricsElements.push(`\u6765\u6E90 ${item.metrics.sourceCount}`);
+      metricsElements.push(`来源 ${item.metrics.sourceCount}`);
     }
     if (item.metrics.likes !== undefined && item.metrics.likes > 0) {
-      metricsElements.push(`${item.metrics.likes}\u6536\u85CF`);
+      metricsElements.push(`${item.metrics.likes}收藏`);
     }
   } else {
-    const views = formatCount(item.metrics?.views, "\u6D4F\u89C8");
-    const likes = formatCount(item.metrics?.likes, "\u8D5E");
-    const shares = formatCount(item.metrics?.shares, "\u8F6C\u53D1");
+    const views = formatCount(item.metrics?.views, "浏览");
+    const likes = formatCount(item.metrics?.likes, "赞");
+    const shares = formatCount(item.metrics?.shares, "转发");
     if (views) metricsElements.push(views);
     if (likes) metricsElements.push(likes);
     if (shares) metricsElements.push(shares);
@@ -74,18 +74,18 @@ export default function NewsCard({ item }: { item: NewsItem }) {
         </div>
         {item.tags && item.tags.length > 0 && (
           <div className="text-xs text-muted/50 mb-1">
-            {item.tags.slice(0, 3).join(" \u00B7 ")}
+            {item.tags.slice(0, 3).join(" · ")}
           </div>
         )}
         <h3 className="text-base font-semibold text-foreground leading-snug mb-2 group-hover:text-accent transition-colors">
           {item.title}
         </h3>
-        <p className="text-sm text-muted leading-relaxed line-clamp-2">
+        <p className="text-sm text-muted leading-relaxed">
           {item.summary}
         </p>
         {item.whyItMatters && (
-          <p className="text-xs text-accent/70 mt-1 line-clamp-1">
-            \u2728 {item.whyItMatters}
+          <p className="text-xs text-accent/70 mt-1">
+            ✨ {item.whyItMatters}
           </p>
         )}
       </div>
@@ -96,10 +96,10 @@ export default function NewsCard({ item }: { item: NewsItem }) {
           rel="noopener noreferrer"
           className="hover:text-accent transition-colors"
         >
-          \u539F\u6587
+          原文
         </a>
         {metricsElements.length > 0 && (
-          <span>{metricsElements.join(" \u00B7 ")}</span>
+          <span>{metricsElements.join(" · ")}</span>
         )}
         <span>{formatRelativeTime(item.publishedAt)}</span>
       </div>

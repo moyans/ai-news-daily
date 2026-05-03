@@ -12,7 +12,7 @@ export default function HomePage() {
     <main className="min-h-screen flex items-center justify-center">
       <div className="text-center">
         <h1 className="text-3xl font-bold mb-4">AI News Daily</h1>
-        <p className="text-muted">\u6682\u65E0\u6570\u636E\uFF0C\u8BF7\u7A0D\u540E\u518D\u6765\u3002</p>
+        <p className="text-muted">暂无数据，请稍后再来。</p>
       </div>
     </main>
   );
