@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 import { getAvailableDates } from "@/lib/data";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const dates = getAvailableDates();
   const dailyUrls = dates.map((date) => ({

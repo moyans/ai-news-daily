@@ -1,9 +1,6 @@
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import { getDailyData, getAvailableDates } from "@/lib/data";
-import { SourceFilter } from "@/lib/types";
-import NewsCard from "@/components/NewsCard";
-import SourceTabs from "@/components/SourceTabs";
+import DailyNewsView from "@/components/DailyNewsView";
 import DateNav from "@/components/DateNav";
 import Footer from "@/components/Footer";
 
@@ -26,13 +23,10 @@ export async function generateMetadata({
 
 export default async function DailyPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ date: string }>;
-  searchParams: Promise<{ source?: string }>;
 }) {
   const { date } = await params;
-  const { source } = await searchParams;
   const data = getDailyData(date);
 
   if (!data) {
@@ -43,21 +37,6 @@ export default async function DailyPage({
   const currentIndex = dates.indexOf(date);
   const prevDate = currentIndex < dates.length - 1 ? dates[currentIndex + 1] : null;
   const nextDate = currentIndex > 0 ? dates[currentIndex - 1] : null;
-
-  const activeFilter: SourceFilter =
-    source === "huxiu" ? "huxiu" : source === "x" ? "x" : "all";
-
-  const allItems =
-    activeFilter === "all"
-      ? [...data.huxiu, ...data.xTopics]
-      : activeFilter === "huxiu"
-        ? data.huxiu
-        : data.xTopics;
-
-  allItems.sort(
-    (a, b) =>
-      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  );
 
   return (
     <main className="max-w-2xl mx-auto px-4 py-8">
@@ -72,23 +51,7 @@ export default async function DailyPage({
         </p>
       </header>
 
-      <Suspense fallback={<div className="flex gap-2 mb-6"><div className="px-4 py-2 rounded-lg bg-card text-muted text-sm">...</div><div className="px-4 py-2 rounded-lg bg-card text-muted text-sm">...</div><div className="px-4 py-2 rounded-lg bg-card text-muted text-sm">...</div></div>}>
-        <SourceTabs
-          active={activeFilter}
-          date={date}
-          counts={{ huxiu: data.huxiu.length, x: data.xTopics.length }}
-        />
-      </Suspense>
-
-      <div className="space-y-4">
-        {allItems.length > 0 ? (
-          allItems.map((item) => <NewsCard key={item.id} item={item} />)
-        ) : (
-          <p className="text-center text-muted py-12">
-            暂无该来源的新闻数据
-          </p>
-        )}
-      </div>
+      <DailyNewsView date={date} huxiu={data.huxiu} xTopics={data.xTopics} />
 
       <DateNav prevDate={prevDate} nextDate={nextDate} currentDate={date} />
       <Footer />
