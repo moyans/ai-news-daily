@@ -15,25 +15,61 @@ description: 每日追踪并推送 X（x.com）热点话题新闻简报。用于
 
 ## 固定工作流
 
-### 1) 使用 browser 打开 X
+### 0) 确保已登录的 Chrome 在运行
 
-优先使用 `browser` + `profile=chrome`：
-- `browser action=open profile=chrome target=host targetUrl=https://x.com/explore/tabs/for_you`
+执行前先确认 Chrome 调试端口可用：
+```bash
+curl -s http://127.0.0.1:9223/json/version | python3 -m json.tool
+```
 
-若无法连接浏览器控制服务，直接说明失败原因并提示重试，不改用无关工具链。
+如果端口不通，启动带持久 profile 的 Chrome：
+```bash
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+  --remote-debugging-port=9223 \
+  --user-data-dir="/Users/pacv/.cache/chrome-devtools-mcp/chrome-profile" \
+  --no-first-run \
+  --no-default-browser-check \
+  &>/dev/null &
+```
+
+这个 Chrome 实例保留了所有登录状态（X/Twitter、Google 等），无需重复登录。
+启动后等待 3-5 秒再继续。
+
+### 1) 使用 Playwright MCP 连接已登录的 Chrome
+
+Playwright MCP 已配置 `--cdp-endpoint http://127.0.0.1:9223`（在 `~/.config/opencode/opencode.json` 中），
+直接连接到你已登录的 Chrome 实例，所有 cookies 和 session 都在。
+
+操作流程：
+1. 先加载 `playwright` skill 获取 MCP 工具
+2. 用 `browser_navigate` 打开 X 搜索页
+3. 用 `browser_snapshot` 获取无障碍快照（比截图更适合提取文本内容）
+4. 用 `browser_click` / `browser_evaluate` 滚动和交互
+
+示例调用：
+```
+skill_mcp(mcp_name="playwright", tool_name="browser_navigate", arguments={"url": "https://x.com/search?q=AI&src=typed_query&f=top"})
+skill_mcp(mcp_name="playwright", tool_name="browser_snapshot", arguments={})
+skill_mcp(mcp_name="playwright", tool_name="browser_evaluate", arguments={"function": "() => window.scrollBy(0, 2000)"})
+```
+
+若 Chrome 调试端口连接失败，直接说明失败原因并提示用户运行上述启动命令。
 
 ### 2) 按主题抓取（默认 5 个）
 
 默认主题：`AI`、`LLM`、`中国社会热点`、`新加坡社会热点`、`美国社会热点`
 
-建议查询页（Top）：
+搜索 URL（Top 排序）：
 - AI：`https://x.com/search?q=AI%20(lang%3Aen%20OR%20lang%3Azh)&src=typed_query&f=top`
 - LLM：`https://x.com/search?q=LLM%20(lang%3Aen%20OR%20lang%3Azh)&src=typed_query&f=top`
 
-然后：
-- `browser action=snapshot profile=chrome refs=aria`
-- 从快照提取前排 `article` 的：作者、发布时间、正文核心句、互动量（至少 likes/views）
-- 每个主题先抓 8-10 条候选，再筛到 4-6 条入选
+具体步骤：
+1. 用 `browser_navigate` 导航到搜索 URL
+2. 用 `browser_snapshot` 获取页面内容
+3. 从快照提取前排帖子的：作者、发布时间、正文核心句、互动量（至少 likes/views）
+4. 用 `browser_evaluate` 执行 `window.scrollBy(0, 2000)` 向下滚动加载更多内容
+5. 再次 `browser_snapshot` 获取更多帖子
+6. 每个主题先抓 8-10 条候选，再筛到 4-6 条入选
 
 ### 3) 过滤与去重（强制）
 
@@ -141,20 +177,22 @@ description: 每日追踪并推送 X（x.com）热点话题新闻简报。用于
 按日期目录结构保存文件：
 
 ```bash
-mkdir -p ~/Documents/sunchao251/code/ai-news-daily/data/YYYY-MM-DD/x-hot-topics/
+mkdir -p /Users/pacv/Documents/sunchao251/ai-news-daily/data/YYYY-MM-DD/x-hot-topics/
 ```
 
 文件名为 `content.md`，完整路径：
 ```
-~/Documents/sunchao251/code/ai-news-daily/data/YYYY-MM-DD/x-hot-topics/content.md
+/Users/pacv/Documents/sunchao251/ai-news-daily/data/YYYY-MM-DD/x-hot-topics/content.md
 ```
+
+也可以用环境变量 `AI_NEWS_DAILY_DATA_DIR` 覆盖默认路径。
 
 与 huxiu-ai-news 共用同一仓库，按 `data/日期/x-hot-topics/content.md` 组织。
 
 ### 2) Git 提交并推送
 
 ```bash
-cd ~/Documents/sunchao251/code/ai-news-daily
+cd /Users/pacv/Documents/sunchao251/ai-news-daily
 git pull
 git add data/YYYY-MM-DD/x-hot-topics/
 git commit -m "content(x-hot-topics): add daily X AI/LLM hotspots for YYYY-MM-DD"
